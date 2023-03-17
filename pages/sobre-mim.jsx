@@ -12,7 +12,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 
 //PDFs
-import curriculoPTBR from "../public/pdf/curriculo-ptbr.pdf";
+import CV from "../public/pdf/cv.pdf";
 
 const WrapperAboutMe = styled.div`
 	display: flex;
@@ -293,7 +293,7 @@ export default function SobreMim(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV href={curriculoPTBR} target="_blank" data-splitbee-event="Download CV">
+								<ButtonCV href={CV} target="_blank" data-splitbee-event="Download CV">
 									{language.aboutMePage.download}
 								</ButtonCV>
 							</div>
