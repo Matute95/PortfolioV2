@@ -1,0 +1,105 @@
+{
+	"id": "enus",
+	"navbarMenu": {
+	"labelHome": "HOME",
+	"labelServices": "SKILLS",
+	"labelAboutMe": "ABOUT ME",
+	"labelPortifolio": "PORTFOLIO",
+	"labelExperience": "EXPERIENCE"
+	},
+	"landingPage": {
+	"apresentationText": "Hi, I'm",
+	"typeText": "Matias Rejas",
+	"resumeText": "Web and mobile application developer with modern, responsive designs and multi-platform code",
+	"buttonText": "Learn more"
+	},
+	"servicesOffer": {
+	"title": "SKILLS",
+	"cards": {
+	"develop": {
+	"title": "Development",
+	"contentText": "The languages I usually use for application development."
+	},
+	"design": {
+	"title": "Design",
+	"contentText": "Tools I use to apply styles to my applications."
+	},
+	"framework": {
+	"title": "Frameworks",
+	"contentText": "My preferred frameworks for application development."
+	},
+	"tools": {
+	"title": "Tools",
+	"contentText": "Multipurpose tools I use in my projects."
+	}
+	}
+	},
+	"aboutMePage": {
+	"title": "ABOUT ME",
+	"paragraph_one": "Final year student in Systems Engineering at UAGRM, I obtained a work scholarship at the same university and worked for three years in the student admission department providing technical support, and six months in the Directorate of Information and Communication Technologies as a support programmer.",
+	"paragraph_two": "I am a passionate developer with ease of learning and adaptation, always looking to learn new technologies.",
+	"paragraph_three": "I want to deepen and contribute with my knowledge acquired in the career as well as work experience, to provide solid technological solutions to the needs that the company may have in the near future.",
+	"alt_dev_img": "Developer Matias Rejas",
+	"profile": "Web and mobile application developer with more experience in environments related to javascript such as react.js, expo, next, node",
+	"download": "Download CV"
+	},
+	"portifolioPage": {
+	"title": "PROJECTS",
+	"labelFilter": "ALL",
+	"view": "View Project",
+	"projects": {
+	"id_1": {
+	"title": "Collaborative Spreadsheet",
+	"description": "A collaborative spreadsheet where people who have an open session can work simultaneously. To test the sessions, you can open the project from another device or open more than one window with the same link, and the application will consider it as a new person. The login is not implemented, so the user names are set by default."
+	},
+	"id_2": {
+	"title": "Guess the Breed",
+	"description": "A simple game that consists of guessing the breed of the dog. Three random images are presented using an online api called dog-api, which also contains the breed of the dog that appears in the image. You have 3 lives/attempts and thirty seconds to answer as many as possible. The highest score is recorded persistently."
+	}
+	}
+	},
+	"experiencePage": {
+	"title": "EXPERIENCE AND TITLES",
+	"timeline": {
+	"labelPosition": "Position",
+	"labelTitle": "Title",
+	"labelCompany": "Company",
+	"labelCategory": "Category",
+	"labelInstitution": "Institution",
+	"labelProfessionalCourse": "Professional Course",
+	"labelDep": "Department",
+	"labelExtensionCourse": "Extension Course",
+	"labelFunc": "Functions",
+	"cert": "See Certificate",
+	"title1": "Digital Marketing Platforms & Social Media Business",
+	"title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
+	"title3": "Javascript Course",
+	"title4": "Android Course with Kotlin",
+	"job1": "Student Admission",
+	"job1_1": "Intern",
+	"job1_2": "For academic sufficiency tests (PSA):",
+	"job1_3": "-Responsible for maintenance, repair, and installation of equipment in the different faculty modules.",
+	"job1_4": "-Configuration and testing of Ethernet connectivity of equipment to connect with UAGRM servers",
+	"job1_5": "-Installation, configuration, and testing of applications necessary for taking the exam",
+	"job1_6": "-Registration and enrollment of new applicants",
+	"job1_7": "-Installation and maintenance of applications necessary for the biometric registration of applicants",
+	"job1_8": "I maintained the same functions",
+	"job2": "Support Programmer",
+	"job2_1": "In the Information and Communication Technologies Directorate:",
+	"job2_2": "-Analysis and software development."
+	}
+	},
+	"footer": {
+	"labelNavigation": {
+	"title": "NAVIGATION",
+	"labelHome": "Home",
+	"labelServices": "Skills",
+	"labelAboutMe": "About Me",
+	"labelPortifolio": "Projects",
+	"labelExperience": "Experience"
+	},
+	"labelHost": {
+	"title": "HOSTING"
+	}
+}
+}
