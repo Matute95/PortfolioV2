@@ -283,6 +283,7 @@ export default function Portifolio() {
 	const { language } = useContext(SettingsContext);
 	const [stack, setStack] = useState("TODOS");
 	const [view, setView] = useState("grid");
+	const [array_projects, setArray_projects] = useState(projects);
 
 	const projects = [
 		{
@@ -357,14 +358,13 @@ export default function Portifolio() {
 	];
 
 	function handleFilter(id) {
-		setStack(id);
+		const p = projects.filter((item) => item.typeProject.includes(id))
+		setArray_projects(d)
 	}
 
 	function handleView(event) {
 		setView(event.target.id);
 	}
-
-	const array_projects = stack == "TODOS" ? projects : projects.filter((item) => item.typeProject.includes(stack));
 
 	return (
 		<SectionPortifolio id="section-portifolio">
