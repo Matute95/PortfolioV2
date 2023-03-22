@@ -164,7 +164,7 @@ export default function HomePage() {
 			<ProgressBar color={theme.colors.branding} height={5} />
 			<Head
 				title="Portfólio de Matias Rejas"
-				metaDescription="Web portifólio de Matias Rejas."
+				metaDescription="Portafólio Web de Matias Rejas."
 				keywords="Matias Rejas, Matias, Rejas, Programacion, Portifólio, Dev, Programador, Developer"
 			/>
 			<LandingPageContainer>

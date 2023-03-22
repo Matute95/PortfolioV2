@@ -48,14 +48,18 @@
 	"labelFilter": "ALL",
 	"view": "View Project",
 	"projects": {
-	"id_1": {
-	"title": "Collaborative Spreadsheet",
-	"description": "A collaborative spreadsheet where people who have an open session can work simultaneously. To test the sessions, you can open the project from another device or open more than one window with the same link, and the application will consider it as a new person. The login is not implemented, so the user names are set by default."
-	},
-	"id_2": {
-	"title": "Guess the Breed",
-	"description": "A simple game that consists of guessing the breed of the dog. Three random images are presented using an online api called dog-api, which also contains the breed of the dog that appears in the image. You have 3 lives/attempts and thirty seconds to answer as many as possible. The highest score is recorded persistently."
-	}
+		"id_1": {
+			"title": "Fast Food Store",
+			"description": "A progressive web application (PWA) of a fast food store installable on both mobile devices and PCs. The page functions as the client side of a delivery application, allowing users to add products to a cart which can be removed or added to, and shows the total cost before proceeding to payment."
+			},
+			"id_2": {
+			"title": "Collaborative Spreadsheet",
+			"description": "A collaborative spreadsheet that multiple users can work on simultaneously if they have an open session. To test sessions, users can open the project from another device or open more than one window with the same link, and the application will count it as a new user. It does not have a login implemented, so usernames are set by default."
+			},
+			"id_3": {
+			"title": "Guess the Breed",
+			"description": "A simple game that consists of guessing the breed of a dog. Three random images are presented using an online API called dog-api which also contains the breed of the dog in the image. Users have 3 lives/attempts and thirty seconds to answer as many questions as possible, with the highest score being persistently recorded."
+			}		
 	}
 	},
 	"experiencePage": {

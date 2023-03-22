@@ -17,7 +17,7 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Netlify, Nextdotjs, Tailwindcss, Typescript } from "styled-icons/simple-icons";
+import { Firebase, Netlify, Nextdotjs, Redux, Tailwindcss, Typescript } from "styled-icons/simple-icons";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -290,6 +290,32 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_1.title,
 			description: language.portifolioPage.projects.id_1.description,
 			liveDemoUrl: null,
+			image:"/img/3.jpg",
+			techs: [
+				<Tooltip toolTipText="ReactJS">
+					<ReactLogo />
+				</Tooltip>,
+				<Tooltip toolTipText="Firebase">
+					<Firebase />
+				</Tooltip>,
+				<Tooltip toolTipText="Redux">
+					<Redux />
+				</Tooltip>,
+				<Tooltip toolTipText="Css">
+					<Css3 />
+				</Tooltip>,
+				<Tooltip toolTipText="Netlify">
+					<Netlify />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
+			typeProject: ["WEB", "MOBILE"]
+		},
+		{
+			id: 2,
+			title: language.portifolioPage.projects.id_2.title,
+			description: language.portifolioPage.projects.id_2.description,
+			liveDemoUrl: null,
 			image:"/img/1.jpg",
 			techs: [
 				<Tooltip toolTipText="Next">
@@ -306,12 +332,12 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://dynamic-babka-8d20d2.netlify.app/",
-			typeProject: ["WEB", "MOBILE"]
+			typeProject: ["WEB"]
 		},
 		{
-			id: 2,
-			title: language.portifolioPage.projects.id_2.title,
-			description: language.portifolioPage.projects.id_2.description,
+			id: 3,
+			title: language.portifolioPage.projects.id_3.title,
+			description: language.portifolioPage.projects.id_3.description,
 			liveDemoUrl: null,
 			image:"/img/2.jpg",
 			techs: [
@@ -326,7 +352,7 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
-			typeProject: ["WEB", "MOBILE"]
+			typeProject: ["WEB"]
 		}
 	];
 

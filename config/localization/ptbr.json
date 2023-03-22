@@ -49,10 +49,14 @@
 		"view": "Ver Proyecto",
 		"projects": {
 		"id_1": {
+		"title": "Tienda de Comida Rapida",
+		"description": "Una aplicacion web progresiva(PWA) de una tienda de comida rapida instalable tanto en dispositivos moviles como en PCs, la pagina funciona como la parte del cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
+		},
+		"id_2": {
 		"title": "Hoja de calculo colaborativa",
 		"description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona, no tiene implementado el login asi que los nombres de los ususarios son puestos por defecto."
 		},
-		"id_2": {
+		"id_3": {
 		"title": "Adivina la raza",
 		"description": "Un sencillo juego que consiste en adivinar la raza del perro, se presentan tres imagenes aleatorias usando una api en linea llamada dog-api que ademas contiene la raza del perro que aparece en dicha imagen, se tiene 3 vidas/intentos y treinta segundos para responder la mayor cantidad posible, el score mas alto queda registrado de forma persistente."
 		}
