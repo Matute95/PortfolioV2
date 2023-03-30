@@ -293,9 +293,6 @@ export default function SobreMim(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV href={CV} target="_blank">
-									{language.aboutMePage.download}
-								</ButtonCV>
 							</div>
 						</ScrollAnimation>
 					</div>
