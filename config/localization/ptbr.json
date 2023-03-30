@@ -59,6 +59,10 @@
 		"id_3": {
 		"title": "Adivina la raza",
 		"description": "Un sencillo juego que consiste en adivinar la raza del perro, se presentan tres imagenes aleatorias usando una api en linea llamada dog-api que ademas contiene la raza del perro que aparece en dicha imagen, se tiene 3 vidas/intentos y treinta segundos para responder la mayor cantidad posible, el score mas alto queda registrado de forma persistente."
+		},
+		"id_4": {
+		"title": "Deudas",
+		"description": "Una aplicacion para dispositivos moviles android, para gestionar las deudas orientada al sector de prestamistas, en ella se pueden agregar, editar y gestionar de manera individual todas las deudas, facilitando y automatizando muchos de los procesos que se suelen hacer a mano, el codigo fuente esta subido a la plataforma de github."
 		}
 	}
 },

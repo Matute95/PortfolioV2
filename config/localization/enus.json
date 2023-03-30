@@ -59,7 +59,11 @@
 			"id_3": {
 			"title": "Guess the Breed",
 			"description": "A simple game that consists of guessing the breed of a dog. Three random images are presented using an online API called dog-api which also contains the breed of the dog in the image. Users have 3 lives/attempts and thirty seconds to answer as many questions as possible, with the highest score being persistently recorded."
-			}		
+			},
+			"id_4": {
+				"title": "Debts",
+				"description": "A mobile application for Android devices, aimed at the lending sector, to manage debts. It allows users to add, edit and individually manage all debts, making many of the traditionally manual processes easier and automated. The source code is uploaded to the GitHub platform."
+				}		
 	}
 	},
 	"experiencePage": {

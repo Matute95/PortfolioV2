@@ -83,7 +83,7 @@ export default function TimelinePortifolio(props) {
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelTitle}:{" "}
-						<span>{language.experiencePage.timeline.title}</span>
+						<span>{language.experiencePage.timeline.title1}</span>
 					</BoldText>
 					<BoldText><a href="https://drive.google.com/file/d/1nqd5ph1d13k4fKIEJRHNoMy-bxrLqDPq/view" target={"_blank"}>
 						<span>{language.experiencePage.timeline.cert}</span></a>
@@ -260,7 +260,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2018</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2022</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelInstitution}: <span>UAGRM</span>
 					</BoldText>

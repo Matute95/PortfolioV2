@@ -17,7 +17,7 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Firebase, Netlify, Nextdotjs, Redux, Tailwindcss, Typescript } from "styled-icons/simple-icons";
+import { Expo, Firebase, Github, Netlify, Nextdotjs, Redux, Tailwindcss, Typescript } from "styled-icons/simple-icons";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -283,7 +283,6 @@ export default function Portifolio() {
 	const { language } = useContext(SettingsContext);
 	const [stack, setStack] = useState("TODOS");
 	const [view, setView] = useState("grid");
-	const [array_projects, setArray_projects] = useState(projects);
 
 	const projects = [
 		{
@@ -309,7 +308,7 @@ export default function Portifolio() {
 					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
+			sourceCodeLink: "https://app-comida-matias.netlify.app/home",
 			typeProject: ["WEB", "MOBILE"]
 		},
 		{
@@ -354,18 +353,36 @@ export default function Portifolio() {
 			],
 			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
 			typeProject: ["WEB"]
+		},
+		{
+			id: 4,
+			title: language.portifolioPage.projects.id_4.title,
+			description: language.portifolioPage.projects.id_4.description,
+			liveDemoUrl: null,
+			image:"/img/4.jpg",
+			techs: [
+				<Tooltip toolTipText="React Expo">
+					<Expo />
+				</Tooltip>,
+				<Tooltip toolTipText="Github">
+					<Github />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
+			typeProject: ["MOBILE"]
 		}
 	];
 
 	function handleFilter(id) {
 		const p = projects.filter((item) => item.typeProject.includes(id))
-		setArray_projects(d)
+		setArray_projects(p)
 	}
 
 	function handleView(event) {
 		setView(event.target.id);
 	}
-
+	
+	const [array_projects, setArray_projects] = useState(projects);
 	return (
 		<SectionPortifolio id="section-portifolio">
 			<ContainerTitleSection>
