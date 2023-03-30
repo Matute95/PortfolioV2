@@ -308,7 +308,7 @@ export default function Portifolio() {
 					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://app-comida-matias.netlify.app/home",
+			sourceCodeLink: "https://app-comida-matias.netlify.app",
 			typeProject: ["WEB", "MOBILE"]
 		},
 		{

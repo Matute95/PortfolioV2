@@ -263,7 +263,12 @@ const SectionSobreMim = styled.section`
 
 export default function SobreMim(props) {
 	const { language } = useContext(SettingsContext);
-
+	function downloadPDF() {
+		const link = document.createElement('a');
+		link.href = '/pdf/cv.pdf';
+		link.download = 'cv.pdf';
+		link.click();
+	  }
 	return (
 		<SectionSobreMim id="section-sobre-mim">
 			<WrapperAboutMe>
@@ -290,6 +295,9 @@ export default function SobreMim(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
+								<ButtonCV onClick={downloadPDF} target='_blank' data-splitbee-event="Download CV">
+									{language.aboutMePage.download}
+								</ButtonCV>
 							</div>
 						</ScrollAnimation>
 					</div>
