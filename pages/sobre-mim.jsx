@@ -11,9 +11,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 //Custom components
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 
-//PDFs
-import CV from "../public/pdf/cv.pdf";
-
 const WrapperAboutMe = styled.div`
 	display: flex;
 	align-items: center;
