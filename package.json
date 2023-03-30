@@ -4,10 +4,9 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
+		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
-		"build": "babel src -d lib",
-    "test": "jest"
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.9.0",
