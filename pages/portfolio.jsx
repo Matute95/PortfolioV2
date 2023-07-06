@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { SettingsContext } from "@/context/SettingsContext";
 
 //Styled-components
-import { TitleSection, ContainerTitleSection, TitleH3, BodyText } from "@/styles/ui";
+import { TitleSection, ContainerTitleSection, BodyText } from "@/styles/ui";
 
 //Ícones
 import { ReactLogo } from "@styled-icons/boxicons-logos/ReactLogo";
@@ -17,7 +17,7 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Expo, Firebase, Github, Netlify, Nextdotjs, Redux, Tailwindcss, Typescript } from "styled-icons/simple-icons";
+import { Expo, Firebase, Github, Materialui, Netlify, Nextdotjs, Redux, Typescript } from "styled-icons/simple-icons";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -281,10 +281,10 @@ const ButtonP = styled.a`
 
 export default function Portifolio() {
 	const { language } = useContext(SettingsContext);
-	const [stack, setStack] = useState("TODOS");
+	const [stack, setStack] = useState(language.portifolioPage.labelFilter);
 	const [view, setView] = useState("grid");
 
-	const projects = [
+	let projects = [
 		{
 			id: 1,
 			title: language.portifolioPage.projects.id_1.title,
@@ -309,7 +309,7 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://app-comida-matias.netlify.app",
-			typeProject: ["WEB", "MOBILE"]
+			typeProject: ["WEB", "MOVIL", "*"]
 		},
 		{
 			id: 2,
@@ -331,8 +331,8 @@ export default function Portifolio() {
 					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://dynamic-babka-8d20d2.netlify.app/",
-			typeProject: ["WEB"]
+			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			typeProject: ["WEB", "*"]
 		},
 		{
 			id: 3,
@@ -344,15 +344,18 @@ export default function Portifolio() {
 				<Tooltip toolTipText="ReactJS">
 					<ReactLogo />
 				</Tooltip>,
-				<Tooltip toolTipText="Tailwind">
-					<Tailwindcss />
+				<Tooltip toolTipText="MaterialUI">
+					<Materialui />
+				</Tooltip>,
+				<Tooltip toolTipText="Firebase">
+					<Firebase />
 				</Tooltip>,
 				<Tooltip toolTipText="Netlify">
 					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://celebrated-croquembouche-98a3b5.netlify.app/",
-			typeProject: ["WEB"]
+			sourceCodeLink: "https://fotografias-matias.netlify.app",
+			typeProject: ["WEB", "MOVIL", "*"]
 		},
 		{
 			id: 4,
@@ -369,7 +372,7 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://github.com/Matute95/Deudas",
-			typeProject: ["MOBILE"]
+			typeProject: ["MOVIL", "*"]
 		}
 	];
 
@@ -392,28 +395,31 @@ export default function Portifolio() {
 			<ChipTechOptions>
 				<Filter className="svg" />
 				<Chip
-					id="TODOS"
+					id="*"
 					onClick={(event) => {
 						handleFilter(event.target.id);
+						setStack(event.target.id)
 					}}
-					active={stack.includes("TODOS") ? true : false}>
+					active={stack.includes("*") ? true : false}>
 					{language.portifolioPage.labelFilter}
 				</Chip>
 				<Chip
 					id="WEB"
 					onClick={(event) => {
 						handleFilter(event.target.id);
+						setStack(event.target.id);
 					}}
 					active={stack.includes("WEB") ? true : false}>
 					WEB
 				</Chip>
 				<Chip
-					id="MOBILE"
+					id="MOVIL"
 					onClick={(event) => {
 						handleFilter(event.target.id);
+						setStack(event.target.id);
 					}}
-					active={stack.includes("MOBILE") ? true : false}>
-					MOBIL
+					active={stack.includes("MOVIL") ? true : false}>
+					MOVIL
 				</Chip>
 			</ChipTechOptions>
 

@@ -1,113 +1,113 @@
 {
-	"id": "ptbr",
-	"navbarMenu": {
-	"labelHome": "INICIO",
-	"labelServices": "HABILIDADES",
-	"labelAboutMe": "SOBRE MÍ",
-	"labelPortifolio": "PORTAFOLIO",
-	"labelExperience": "EXPERIENCIA"
-	},
-	"landingPage": {
-	"apresentationText": "Hola, soy",
-	"typeText": "Matias Rejas",
-	"resumeText": "Desarrolador de aplicaciones webs y moviles con diseños modernos, responsivos y codigo multiplataforma",
-	"buttonText": "Saber más"
-	},
-	"servicesOffer": {
-	"title": "HABILIDADES",
-	"cards": {
-	"develop": {
-	"title": "Desarrollo",
-	"contentText": "Los lenguajes que suelo usar para el desarrollo de aplicaciones."
-	},
-	"design": {
-	"title": "Diseño",
-	"contentText": "Herramientas que manejo para aplicar estilos a mis aplicaciones."
-	},
-	"framework": {
-	"title": "Frameworks",
-	"contentText": "Mis frameworks preferidos para el desarrollo de aplicaciones."
-	},
-	"tools": {
-	"title": "Herramientas",
-	"contentText": "Herramientas multiproposito que ocupo en mis proyectos."
-	}
-	}
-	},
-	"aboutMePage": {
-	"title": "SOBRE MÍ",
-	"paragraph_one": "Estudiante de último año en la carrera Ing. en Sistemas de la UAGRM, obtuve una beca de trabajo en la misma y trabajé durante tres años en el departamento de admisión estudiantil dando soporte técnico, medio año en la Dirección de Tecnologías de la Información y Comunicación como programador de apoyo.",
-	"paragraph_two": "Soy un desarrollador apasionado de la programación, con facilidad de aprendizaje y adaptación, siempre buscando aprender nuevas tecnologías.",
-	"paragraph_three": "Quiero profundizar y aportar con mis conocimientos adquiridos en la carrera además de la experiencia laboral, para aportar sólidas soluciones tecnológicas a las necesidades que pueda tener la empresa en un futuro cercano o próximo.",
-		"alt_dev_img": "Desarrollador Matias Rejas",
-		"perfil": "Desarrollador de aplicaciones web y movil con mayor experiencia en entornos relacionados a javascript como son react.js, expo, next, node",
-		"download": "Descargar CV"
-		},
-		"portifolioPage": {
-		"title": "PROYECTOS",
-		"labelFilter": "TODOS",
-		"view": "Ver Proyecto",
-		"projects": {
-		"id_1": {
-		"title": "Tienda de Comida Rapida",
-		"description": "Una aplicacion web progresiva(PWA) de una tienda de comida rapida instalable tanto en dispositivos moviles como en PCs, la pagina funciona como la parte del cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
-		},
-		"id_2": {
-		"title": "Hoja de calculo colaborativa",
-		"description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona, no tiene implementado el login asi que los nombres de los ususarios son puestos por defecto."
-		},
-		"id_3": {
-		"title": "Adivina la raza",
-		"description": "Un sencillo juego que consiste en adivinar la raza del perro, se presentan tres imagenes aleatorias usando una api en linea llamada dog-api que ademas contiene la raza del perro que aparece en dicha imagen, se tiene 3 vidas/intentos y treinta segundos para responder la mayor cantidad posible, el score mas alto queda registrado de forma persistente."
-		},
-		"id_4": {
-		"title": "Deudas",
-		"description": "Una aplicacion para dispositivos moviles android, para gestionar las deudas orientada al sector de prestamistas, en ella se pueden agregar, editar y gestionar de manera individual todas las deudas, facilitando y automatizando muchos de los procesos que se suelen hacer a mano, el codigo fuente esta subido a la plataforma de github."
-		}
-	}
-},
-"experiencePage": {
-	"title": "EXPERIENCIA Y TITULOS",
-	"timeline": {
-		"labelPosition": "Cargo",
-		"labelTitle": "Título",
-		"labelCompany": "Empresa",
-		"labelCategory": "Categoria",
-		"labelInstitution": "Instituiccion",
-		"labelProfessionalCourse": "Curso profesional",
-		"labelDep": "Departamento",
-		"labelExtensionCourse": "Curso de extension",
-		"labelFunc": "Funciones",
-		"cert": "Ver Certificado",
-		"title1": "Plataformas de Marketing Digital & Social Media Business",
-		"title2": "Analisis de trafico para el descubrimiento de ataques informaticos con Wireshark",
-		"title3": "Curso de Javascript",
-		"title4": "Curso de Android con Kotlin",
-		"job1": "Admision Estudiantil",
-		"job1_1": "Becario",
-		"job1_2": "Para las pruebas de suficiencia académica (PSA):",
-		"job1_3": "-Encargado del mantenimiento, reparación e instalación de equipos en los diferentes módulos facultativos.",
-		"job1_4": "-Configuración y testeo de la conectividad ethernet de los equipos para conectar con los servidores de la UAGRM",
-		"job1_5": "-Instalación, configuración y testeo de aplicaciones necesarias para la toma del examen",
-		"job1_6": "-inscripción y registro de nuevos postulantes",
-		"job1_7": "-instalación y mantenimiento de aplicaciones necesarias para el registro biométrico de los postulantes",
-		"job1_8": "Mantuve las mismas funciones",
-		"job2": "Programador de apoyo",
-		"job2_1": "En la Dirección de Tecnologías de la Información y Comunicación:",
-		"job2_2": "-Analisis y desarrollo de software."
-	}
-},
-"footer": {
-	"labelNavigation": {
-		"title": "NAVEGACION",
-		"labelHome": "Inicio",
-		"labelServices": "Servicios",
-		"labelAboutMe": "Sobre mi",
-		"labelPortifolio": "Proyetos",
-		"labelExperience": "Experiencia"
-	},
-	"labelHost": {
-		"title": "HOSPEDAGE"
-	}
-}
+  "id": "ptbr",
+  "navbarMenu": {
+    "labelHome": "INICIO",
+    "labelServices": "HABILIDADES",
+    "labelAboutMe": "SOBRE MÍ",
+    "labelPortifolio": "PORTAFOLIO",
+    "labelExperience": "EXPERIENCIA"
+  },
+  "landingPage": {
+    "apresentationText": "Hola, soy",
+    "typeText": "Matias Rejas",
+    "resumeText": "Desarrolador de aplicaciones webs y moviles con diseños modernos, responsivos y codigo multiplataforma",
+    "buttonText": "Saber más"
+  },
+  "servicesOffer": {
+    "title": "HABILIDADES",
+    "cards": {
+      "develop": {
+        "title": "Desarrollo",
+        "contentText": "Los lenguajes que suelo usar para el desarrollo de aplicaciones."
+      },
+      "design": {
+        "title": "Diseño",
+        "contentText": "Herramientas que manejo para aplicar estilos a mis aplicaciones."
+      },
+      "framework": {
+        "title": "Frameworks",
+        "contentText": "Mis frameworks preferidos para el desarrollo de aplicaciones."
+      },
+      "tools": {
+        "title": "Herramientas",
+        "contentText": "Herramientas multiproposito que ocupo en mis proyectos."
+      }
+    }
+  },
+  "aboutMePage": {
+    "title": "SOBRE MÍ",
+    "paragraph_one": "Estudiante de último año en la carrera Ing. en Sistemas de la UAGRM, obtuve una beca de trabajo en la misma y durante tres años trabajé en el departamento de admisión estudiantil dando soporte técnico, medio año en la Dirección de Tecnologías de la Información y Comunicación como programador de apoyo.",
+    "paragraph_two": "Soy un desarrollador apasionado de la programación, con facilidad de aprendizaje y adaptación, siempre buscando aprender nuevas tecnologías.",
+    "paragraph_three": "Quiero profundizar y aportar con mis conocimientos adquiridos en la carrera además de la experiencia laboral, para aportar sólidas soluciones tecnológicas a las necesidades que pueda tener la empresa en un futuro cercano o próximo.",
+    "alt_dev_img": "Desarrollador Matias Rejas",
+    "perfil": "Desarrollador de aplicaciones web y movil con mayor experiencia en entornos relacionados a javascript como son react, expo, next, node, etc",
+    "download": "Descargar CV"
+  },
+  "portifolioPage": {
+    "title": "PROYECTOS",
+    "labelFilter": "TODO",
+    "view": "Ver Proyecto",
+    "projects": {
+      "id_1": {
+        "title": "Tienda de Comida Rapida",
+        "description": "Una aplicacion web progresiva(PWA) de una tienda de comida rapida instalable tanto en dispositivos moviles como en PCs, la pagina funciona como la parte cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
+      },
+      "id_2": {
+        "title": "Hoja de calculo colaborativa",
+        "description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona, no tiene implementado el login asi que los nombres de los ususarios son puestos por defecto."
+      },
+      "id_3": {
+        "title": "Fotografias",
+        "description": "Una aplicacion web progresiva(PWA) que permite crear eventos y generar una invitacion con un codigo qr que podra ser publica o privada y elegir la cantidad de fotgrafos que podran acudir al evento, los fotografos deben tener una subscripcion para poder publicar las fotos en la aplicacion, las fotografias se mostraran en una menor resolucion para que los asistentes puedan comprar las imagenes en alta resolucion."
+      },
+      "id_4": {
+        "title": "Deudas",
+        "description": "Una aplicacion para dispositivos moviles tanto android como IOS, para gestionar las deudas orientada al sector de prestamistas, en ella se pueden agregar, editar y gestionar de manera individual todas las deudas, facilitando y automatizando muchos de los procesos que se suelen hacer a mano, el codigo fuente esta subido a la plataforma de github."
+      }
+    }
+  },
+  "experiencePage": {
+    "title": "EXPERIENCIA Y TITULOS",
+    "timeline": {
+      "labelPosition": "Cargo",
+      "labelTitle": "Título",
+      "labelCompany": "Empresa",
+      "labelCategory": "Categoria",
+      "labelInstitution": "Instituiccion",
+      "labelProfessionalCourse": "Curso profesional",
+      "labelDep": "Departamento",
+      "labelExtensionCourse": "Curso de extension",
+      "labelFunc": "Funciones",
+      "cert": "Ver Certificado",
+      "title1": "Plataformas de Marketing Digital & Social Media Business",
+      "title2": "Analisis de trafico para el descubrimiento de ataques informaticos con Wireshark",
+      "title3": "Curso de Javascript",
+      "title4": "Curso de Android con Kotlin",
+      "job1": "Admision Estudiantil",
+      "job1_1": "Becario",
+      "job1_2": "Para las pruebas de suficiencia académica (PSA):",
+      "job1_3": "-Encargado del mantenimiento, reparación e instalación de equipos en los diferentes módulos facultativos.",
+      "job1_4": "-Configuración y testeo de la conectividad ethernet de los equipos para conectar con los servidores de la UAGRM",
+      "job1_5": "-Instalación, configuración y testeo de aplicaciones necesarias para la toma del examen",
+      "job1_6": "-inscripción y registro de nuevos postulantes",
+      "job1_7": "-instalación y mantenimiento de aplicaciones necesarias para el registro biométrico de los postulantes",
+      "job1_8": "Mantuve las mismas funciones",
+      "job2": "Programador de apoyo",
+      "job2_1": "En la Dirección de Tecnologías de la Información y Comunicación:",
+      "job2_2": "-Analisis y desarrollo de software."
+    }
+  },
+  "footer": {
+    "labelNavigation": {
+      "title": "NAVEGACION",
+      "labelHome": "Inicio",
+      "labelServices": "Servicios",
+      "labelAboutMe": "Sobre mi",
+      "labelPortifolio": "Proyetos",
+      "labelExperience": "Experiencia"
+    },
+    "labelHost": {
+      "title": "HOSPEDAGE"
+    }
+  }
 }

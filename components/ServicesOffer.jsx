@@ -10,9 +10,9 @@ import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
-import { Aws, Bootstrap, Css3Alt, Docker, Git, Html5, Js, Laravel, Node, Php, Python, ReactLogo } from "styled-icons/fa-brands";
-import { Expo, Firebase, Materialui } from "styled-icons/simple-icons";
-import { Flutter, TailwindCss, VisualStudio } from "styled-icons/boxicons-logos";
+import { Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Laravel, Php, Python, ReactLogo } from "styled-icons/fa-brands";
+import { Expo, Fastapi, Firebase, Materialui } from "styled-icons/simple-icons";
+import { Flutter, TailwindCss } from "styled-icons/boxicons-logos";
 import Tooltip from "@/components/Tooltip";
 
 const CardService = styled.div`
@@ -153,7 +153,9 @@ export default function _ServicesOffer() {
 
 	return (
 		<SectionServices id="section-services">
-		<h1>{language.servicesOffer.title}</h1><br/>
+		<CardService>
+			<h3>{language.servicesOffer.title}</h3>
+		</CardService>
 			<ContainerGrid>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
@@ -183,7 +185,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<DesignServices />
 						<h3>{language.servicesOffer.cards.tools.title}</h3>
-						{icon([<Git/>, <Docker/>,<Aws/>,<Firebase/>],['Git','Doker','Amazon Web Service','Firebase'])}
+						{icon([<Fastapi/>, <Docker/>,<Aws/>,<Firebase/>],['Fast API','Doker','Amazon Web Service','Firebase'])}
 						<p>{language.servicesOffer.cards.tools.contentText}</p>
 					</CardService>
 				</ScrollAnimation>

@@ -1,113 +1,113 @@
 {
-	"id": "enus",
-	"navbarMenu": {
-	"labelHome": "HOME",
-	"labelServices": "SKILLS",
-	"labelAboutMe": "ABOUT ME",
-	"labelPortifolio": "PORTFOLIO",
-	"labelExperience": "EXPERIENCE"
-	},
-	"landingPage": {
-	"apresentationText": "Hi, I'm",
-	"typeText": "Matias Rejas",
-	"resumeText": "Web and mobile application developer with modern, responsive designs and multi-platform code",
-	"buttonText": "Learn more"
-	},
-	"servicesOffer": {
-	"title": "SKILLS",
-	"cards": {
-	"develop": {
-	"title": "Development",
-	"contentText": "The languages I usually use for application development."
-	},
-	"design": {
-	"title": "Design",
-	"contentText": "Tools I use to apply styles to my applications."
-	},
-	"framework": {
-	"title": "Frameworks",
-	"contentText": "My preferred frameworks for application development."
-	},
-	"tools": {
-	"title": "Tools",
-	"contentText": "Multipurpose tools I use in my projects."
-	}
-	}
-	},
-	"aboutMePage": {
-	"title": "ABOUT ME",
-	"paragraph_one": "Final year student in Systems Engineering at UAGRM, I obtained a work scholarship at the same university and worked for three years in the student admission department providing technical support, and six months in the Directorate of Information and Communication Technologies as a support programmer.",
-	"paragraph_two": "I am a passionate developer with ease of learning and adaptation, always looking to learn new technologies.",
-	"paragraph_three": "I want to deepen and contribute with my knowledge acquired in the career as well as work experience, to provide solid technological solutions to the needs that the company may have in the near future.",
-	"alt_dev_img": "Developer Matias Rejas",
-	"profile": "Web and mobile application developer with more experience in environments related to javascript such as react.js, expo, next, node",
-	"download": "Download CV"
-	},
-	"portifolioPage": {
-	"title": "PROJECTS",
-	"labelFilter": "ALL",
-	"view": "View Project",
-	"projects": {
-		"id_1": {
-			"title": "Fast Food Store",
-			"description": "A progressive web application (PWA) of a fast food store installable on both mobile devices and PCs. The page functions as the client side of a delivery application, allowing users to add products to a cart which can be removed or added to, and shows the total cost before proceeding to payment."
-			},
-			"id_2": {
-			"title": "Collaborative Spreadsheet",
-			"description": "A collaborative spreadsheet that multiple users can work on simultaneously if they have an open session. To test sessions, users can open the project from another device or open more than one window with the same link, and the application will count it as a new user. It does not have a login implemented, so usernames are set by default."
-			},
-			"id_3": {
-			"title": "Guess the Breed",
-			"description": "A simple game that consists of guessing the breed of a dog. Three random images are presented using an online API called dog-api which also contains the breed of the dog in the image. Users have 3 lives/attempts and thirty seconds to answer as many questions as possible, with the highest score being persistently recorded."
-			},
-			"id_4": {
-				"title": "Debts",
-				"description": "A mobile application for Android devices, aimed at the lending sector, to manage debts. It allows users to add, edit and individually manage all debts, making many of the traditionally manual processes easier and automated. The source code is uploaded to the GitHub platform."
-				}		
-	}
-	},
-	"experiencePage": {
-	"title": "EXPERIENCE AND TITLES",
-	"timeline": {
-	"labelPosition": "Position",
-	"labelTitle": "Title",
-	"labelCompany": "Company",
-	"labelCategory": "Category",
-	"labelInstitution": "Institution",
-	"labelProfessionalCourse": "Professional Course",
-	"labelDep": "Department",
-	"labelExtensionCourse": "Extension Course",
-	"labelFunc": "Functions",
-	"cert": "See Certificate",
-	"title1": "Digital Marketing Platforms & Social Media Business",
-	"title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
-	"title3": "Javascript Course",
-	"title4": "Android Course with Kotlin",
-	"job1": "Student Admission",
-	"job1_1": "Intern",
-	"job1_2": "For academic sufficiency tests (PSA):",
-	"job1_3": "-Responsible for maintenance, repair, and installation of equipment in the different faculty modules.",
-	"job1_4": "-Configuration and testing of Ethernet connectivity of equipment to connect with UAGRM servers",
-	"job1_5": "-Installation, configuration, and testing of applications necessary for taking the exam",
-	"job1_6": "-Registration and enrollment of new applicants",
-	"job1_7": "-Installation and maintenance of applications necessary for the biometric registration of applicants",
-	"job1_8": "I maintained the same functions",
-	"job2": "Support Programmer",
-	"job2_1": "In the Information and Communication Technologies Directorate:",
-	"job2_2": "-Analysis and software development."
-	}
-	},
-	"footer": {
-	"labelNavigation": {
-	"title": "NAVIGATION",
-	"labelHome": "Home",
-	"labelServices": "Skills",
-	"labelAboutMe": "About Me",
-	"labelPortifolio": "Projects",
-	"labelExperience": "Experience"
-	},
-	"labelHost": {
-	"title": "HOSTING"
-	}
-}
+  "id": "enus",
+  "navbarMenu": {
+    "labelHome": "HOME",
+    "labelServices": "SKILLS",
+    "labelAboutMe": "ABOUT ME",
+    "labelPortifolio": "PORTFOLIO",
+    "labelExperience": "EXPERIENCE"
+  },
+  "landingPage": {
+    "apresentationText": "Hi, I'm",
+    "typeText": "Matias Rejas",
+    "resumeText": "Web and mobile application developer with modern, responsive designs and multi-platform code",
+    "buttonText": "Learn more"
+  },
+  "servicesOffer": {
+    "title": "SKILLS",
+    "cards": {
+      "develop": {
+        "title": "Development",
+        "contentText": "The languages I usually use for application development."
+      },
+      "design": {
+        "title": "Design",
+        "contentText": "Tools I use to apply styles to my applications."
+      },
+      "framework": {
+        "title": "Frameworks",
+        "contentText": "My preferred frameworks for application development."
+      },
+      "tools": {
+        "title": "Tools",
+        "contentText": "Multipurpose tools I use in my projects."
+      }
+    }
+  },
+  "aboutMePage": {
+    "title": "ABOUT ME",
+    "paragraph_one": "Final year student in Systems Engineering at UAGRM, I obtained a work scholarship at the same university and worked for three years in the student admission department providing technical support, and six months in the Directorate of Information and Communication Technologies as a support programmer.",
+    "paragraph_two": "I am a passionate developer with ease of learning and adaptation, always looking to learn new technologies.",
+    "paragraph_three": "I want to deepen and contribute with my knowledge acquired in the career as well as work experience, to provide solid technological solutions to the needs that the company may have in the near future.",
+    "alt_dev_img": "Developer Matias Rejas",
+    "perfil": "Web and mobile application developer with more experience in environments related to javascript such as react.js, expo, next, node",
+    "download": "Download CV"
+  },
+  "portifolioPage": {
+    "title": "PROJECTS",
+    "labelFilter": "All",
+    "view": "View Project",
+    "projects": {
+      "id_1": {
+        "title": "Fast Food Store",
+        "description": "A progressive web application (PWA) of a fast food store installable on both mobile devices and PCs. The page functions as the client side of a delivery application, allowing users to add products to a cart which can be removed or added to, and shows the total cost before proceeding to payment."
+      },
+      "id_2": {
+        "title": "Collaborative Spreadsheet",
+        "description": "A collaborative spreadsheet that multiple users can work on simultaneously if they have an open session. To test sessions, users can open the project from another device or open more than one window with the same link, and the application will count it as a new user. It does not have a login implemented, so usernames are set by default."
+      },
+      "id_3": {
+        "title": "Photographs",
+        "description": "A Progressive Web Application (PWA) that allows creating events and generating an invitation with a QR code that can be public or private. It also allows selecting the number of photographers who can attend the event. Photographers must have a subscription to publish photos in the application. The photographs will be displayed in lower resolution so that attendees can purchase the high-resolution images."
+        },
+      "id_4": {
+        "title": "Debts",
+        "description": "A mobile application for Android devices, aimed at the lending sector, to manage debts. It allows users to add, edit and individually manage all debts, making many of the traditionally manual processes easier and automated. The source code is uploaded to the GitHub platform."
+      }
+    }
+  },
+  "experiencePage": {
+    "title": "EXPERIENCE AND TITLES",
+    "timeline": {
+      "labelPosition": "Position",
+      "labelTitle": "Title",
+      "labelCompany": "Company",
+      "labelCategory": "Category",
+      "labelInstitution": "Institution",
+      "labelProfessionalCourse": "Professional Course",
+      "labelDep": "Department",
+      "labelExtensionCourse": "Extension Course",
+      "labelFunc": "Functions",
+      "cert": "See Certificate",
+      "title1": "Digital Marketing Platforms & Social Media Business",
+      "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
+      "title3": "Javascript Course",
+      "title4": "Android Course with Kotlin",
+      "job1": "Student Admission",
+      "job1_1": "Intern",
+      "job1_2": "For academic sufficiency tests (PSA):",
+      "job1_3": "-Responsible for maintenance, repair, and installation of equipment in the different faculty modules.",
+      "job1_4": "-Configuration and testing of Ethernet connectivity of equipment to connect with UAGRM servers",
+      "job1_5": "-Installation, configuration, and testing of applications necessary for taking the exam",
+      "job1_6": "-Registration and enrollment of new applicants",
+      "job1_7": "-Installation and maintenance of applications necessary for the biometric registration of applicants",
+      "job1_8": "I maintained the same functions",
+      "job2": "Support Programmer",
+      "job2_1": "In the Information and Communication Technologies Directorate:",
+      "job2_2": "-Analysis and software development."
+    }
+  },
+  "footer": {
+    "labelNavigation": {
+      "title": "NAVIGATION",
+      "labelHome": "Home",
+      "labelServices": "Skills",
+      "labelAboutMe": "About Me",
+      "labelPortifolio": "Projects",
+      "labelExperience": "Experience"
+    },
+    "labelHost": {
+      "title": "HOSTING"
+    }
+  }
 }
