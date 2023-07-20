@@ -1,113 +1,128 @@
 {
-  "id": "enus",
+  "id": "ptbr",
   "navbarMenu": {
-    "labelHome": "HOME",
-    "labelServices": "SKILLS",
-    "labelAboutMe": "ABOUT ME",
-    "labelPortifolio": "PORTFOLIO",
-    "labelExperience": "EXPERIENCE"
+  "labelHome": "HOME",
+  "labelServices": "SKILLS",
+  "labelAboutMe": "ABOUT ME",
+  "labelPortifolio": "PORTFOLIO",
+  "labelExperience": "EXPERIENCE"
   },
   "landingPage": {
-    "apresentationText": "Hi, I'm",
-    "typeText": "Matias Rejas",
-    "resumeText": "Web and mobile application developer with modern, responsive designs and multi-platform code",
-    "buttonText": "Learn more"
+  "apresentationText": "Hello, I am",
+  "typeText": "Matias Rejas",
+  "resumeText": "Developer of web and mobile applications with modern, responsive designs and cross-platform code.",
+  "buttonText": "Learn More"
   },
   "servicesOffer": {
-    "title": "SKILLS",
-    "cards": {
-      "develop": {
-        "title": "Development",
-        "contentText": "The languages I usually use for application development."
-      },
-      "design": {
-        "title": "Design",
-        "contentText": "Tools I use to apply styles to my applications."
-      },
-      "framework": {
-        "title": "Frameworks",
-        "contentText": "My preferred frameworks for application development."
-      },
-      "tools": {
-        "title": "Tools",
-        "contentText": "Multipurpose tools I use in my projects."
-      }
-    }
+  "title": "SKILLS",
+  "cards": {
+  "develop": {
+  "title": "Development",
+  "contentText": "The languages I usually use for application development."
+  },
+  "design": {
+  "title": "Design",
+  "contentText": "Tools I use to apply styles to my applications."
+  },
+  "framework": {
+  "title": "Frameworks",
+  "contentText": "My preferred frameworks for application development."
+  },
+  "tools": {
+  "title": "Tools",
+  "contentText": "Multipurpose tools I use in my projects."
+  }
+  }
   },
   "aboutMePage": {
-    "title": "ABOUT ME",
-    "paragraph_one": "Final year student in Systems Engineering at UAGRM, I obtained a work scholarship at the same university and worked for three years in the student admission department providing technical support, and six months in the Directorate of Information and Communication Technologies as a support programmer.",
-    "paragraph_two": "I am a passionate developer with ease of learning and adaptation, always looking to learn new technologies.",
-    "paragraph_three": "I want to deepen and contribute with my knowledge acquired in the career as well as work experience, to provide solid technological solutions to the needs that the company may have in the near future.",
-    "alt_dev_img": "Developer Matias Rejas",
-    "perfil": "Web and mobile application developer with more experience in environments related to javascript such as react.js, expo, next, node",
-    "download": "Download CV"
+  "title": "ABOUT ME",
+  "paragraph_one": "I am a passionate developer with a knack for learning and adapting. I am always seeking to learn new technologies and improve my skills to offer innovative and efficient solutions.",
+  "paragraph_two": "I am currently in my final year of studies in Systems Engineering at UAGRM. I earned a work scholarship at the university and worked for three years in the Student Admission Department, one year in the Information Technology Directorate, and one year for the company Desarrollamelo.",
+  "paragraph_three": "I aim to deepen and contribute with the knowledge I have gained during my studies and work experience to provide robust technological solutions to the company's needs in the near future.",
+  "alt_dev_img": "Developer Matias Rejas",
+  "perfil": "Developer of web and mobile applications with extensive experience in JavaScript-related environments such as React, Expo, Next, Node, etc.",
+  "download": "Download CV"
   },
   "portifolioPage": {
-    "title": "PROJECTS",
-    "labelFilter": "All",
-    "view": "View Project",
-    "projects": {
-      "id_1": {
-        "title": "Fast Food Store",
-        "description": "A progressive web application (PWA) of a fast food store installable on both mobile devices and PCs. The page functions as the client side of a delivery application, allowing users to add products to a cart which can be removed or added to, and shows the total cost before proceeding to payment."
-      },
-      "id_2": {
-        "title": "Collaborative Spreadsheet",
-        "description": "A collaborative spreadsheet that multiple users can work on simultaneously if they have an open session. To test sessions, users can open the project from another device or open more than one window with the same link, and the application will count it as a new user. It does not have a login implemented, so usernames are set by default."
-      },
-      "id_3": {
-        "title": "Photographs",
-        "description": "A Progressive Web Application (PWA) that allows creating events and generating an invitation with a QR code that can be public or private. It also allows selecting the number of photographers who can attend the event. Photographers must have a subscription to publish photos in the application. The photographs will be displayed in lower resolution so that attendees can purchase the high-resolution images."
-        },
-      "id_4": {
-        "title": "Debts",
-        "description": "A mobile application for Android devices, aimed at the lending sector, to manage debts. It allows users to add, edit and individually manage all debts, making many of the traditionally manual processes easier and automated. The source code is uploaded to the GitHub platform."
-      }
-    }
+  "title": "PROJECTS",
+  "labelFilter": "ALL",
+  "view": "View Project",
+  "projects": {
+  "id_1": {
+  "title": "Fast Food Store",
+  "description": "A progressive web application (PWA) for a fast food store, installable on both mobile devices and PCs. The page functions as the client-side of a delivery application, allowing users to add products to a cart, modify the cart, and view the total cost before proceeding to payment."
+  },
+  "id_2": {
+  "title": "Collaborative Spreadsheet",
+  "description": "A collaborative spreadsheet where multiple people can work simultaneously. To test the sessions, you can open the project from another device or open multiple windows with the same link, and the application will treat each one as a new person. It doesn't have a login system, so user names are set by default."
+  },
+  "id_3": {
+  "title": "Photographs",
+  "description": "A progressive web application (PWA) that allows users to create events and generate an invitation with a QR code. Users can also choose the number of photographers who can attend the event. Photographers must have a subscription to publish photos in the application. The photos are displayed in lower resolution, and attendees can purchase high-resolution images."
+  },
+  "id_4": {
+  "title": "Debts Manager",
+  "description": "A mobile application for both Android and iOS devices, designed to manage debts, primarily targeted at lenders. Users can add, edit, and manage individual debts, streamlining and automating many of the manual processes. The source code is available on GitHub."
+  },
+  "id_5": {
+  "title": "Protecting You",
+  "description": "A parental control application that manages the visual content consumed by the protected account using AWS's Rekognition service to detect inappropriate content. It also keeps track of calls, location, contacts, and messages, all manageable from a web page. Both the mobile application and the backend are available on GitHub."
+  },
+  "id_6": {
+  "title": "Icon Battle (Under Development)",
+  "description": "A game focused on mobile devices but also compatible with browsers. The game is a text-based adventure set in a battle royale with RPG elements, where players manage statistics, equipment, states, etc. The application is still in development, and the source code is available on GitHub."
+  }
+  }
   },
   "experiencePage": {
-    "title": "EXPERIENCE AND TITLES",
-    "timeline": {
-      "labelPosition": "Position",
-      "labelTitle": "Title",
-      "labelCompany": "Company",
-      "labelCategory": "Category",
-      "labelInstitution": "Institution",
-      "labelProfessionalCourse": "Professional Course",
-      "labelDep": "Department",
-      "labelExtensionCourse": "Extension Course",
-      "labelFunc": "Functions",
-      "cert": "See Certificate",
-      "title1": "Digital Marketing Platforms & Social Media Business",
-      "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
-      "title3": "Javascript Course",
-      "title4": "Android Course with Kotlin",
-      "job1": "Student Admission",
-      "job1_1": "Intern",
-      "job1_2": "For academic sufficiency tests (PSA):",
-      "job1_3": "-Responsible for maintenance, repair, and installation of equipment in the different faculty modules.",
-      "job1_4": "-Configuration and testing of Ethernet connectivity of equipment to connect with UAGRM servers",
-      "job1_5": "-Installation, configuration, and testing of applications necessary for taking the exam",
-      "job1_6": "-Registration and enrollment of new applicants",
-      "job1_7": "-Installation and maintenance of applications necessary for the biometric registration of applicants",
-      "job1_8": "I maintained the same functions",
-      "job2": "Support Programmer",
-      "job2_1": "In the Information and Communication Technologies Directorate:",
-      "job2_2": "-Analysis and software development."
-    }
+  "title": "EXPERIENCE AND TITLES",
+  "timeline": {
+  "labelPosition": "Position",
+  "labelTitle": "Title",
+  "labelCompany": "Company",
+  "labelCategory": "Category",
+  "labelInstitution": "Institution",
+  "labelReference": "Reference",
+  "labelProfessionalCourse": "Professional Course",
+  "labelDep": "Department",
+  "labelExtensionCourse": "Extension Course",
+  "labelFunc": "Functions",
+  "cert": "View Certificate",
+  "title1": "Digital Marketing Platforms & Social Media Business",
+  "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
+  "title3": "JavaScript Course",
+  "title4": "Android Course with Kotlin",
+  "job1": "Student Admission Department",
+  "job1_1": "Intern",
+  "job1_2": "For Academic Proficiency Tests (PSA):",
+  "job1_3": "-Responsible for maintaining, repairing, and installing equipment in different faculty modules.",
+  "job1_4": "-Configuring and testing ethernet connectivity of equipment to connect with UAGRM servers",
+  "job1_5": "-Installing, configuring, and testing applications necessary for the exams",
+  "job1_6": "-Registration and enrollment of new applicants",
+  "job1_7": "-Installation and maintenance of applications necessary for biometric registration of applicants",
+  "job1_8": "Continued performing the same functions",
+  "job2": "Developer",
+  "job3": "Web Backend Developer",
+  "job2_1": "-Internal software development.",
+  "job2_2": "-Performance optimization.",
+  "job2_3": "-Testing and debugging.",
+  "job3_1": "-Database management.",
+  "job3_2": "-Building and maintaining APIs.",
+  "job3_3": "-Integration of external services.",
+  "job3_4": "-Collaboration with other teams."
+  }
   },
   "footer": {
-    "labelNavigation": {
-      "title": "NAVIGATION",
-      "labelHome": "Home",
-      "labelServices": "Skills",
-      "labelAboutMe": "About Me",
-      "labelPortifolio": "Projects",
-      "labelExperience": "Experience"
-    },
-    "labelHost": {
-      "title": "HOSTING"
-    }
+  "labelNavigation": {
+  "title": "NAVIGATION",
+  "labelHome": "Home",
+  "labelServices": "Services",
+  "labelAboutMe": "About Me",
+  "labelPortifolio": "Projects",
+  "labelExperience": "Experience"
+  },
+  "labelHost": {
+  "title": "HOSTING"
   }
-}
+  }
+  }
