@@ -17,7 +17,7 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Expo, Firebase, Github, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Typescript } from "styled-icons/simple-icons";
+import { Expo, Firebase, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Typescript } from "styled-icons/simple-icons";
 import { Git } from "styled-icons/boxicons-logos";
 import { Aws, Laravel, Bootstrap } from "styled-icons/fa-brands";
 
