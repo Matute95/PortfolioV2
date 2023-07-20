@@ -36,8 +36,8 @@
   },
   "aboutMePage": {
     "title": "SOBRE MÍ",
-    "paragraph_one": "Estudiante de último año en la carrera Ing. en Sistemas de la UAGRM, obtuve una beca de trabajo en la misma y durante tres años trabajé en el departamento de admisión estudiantil dando soporte técnico, medio año en la Dirección de Tecnologías de la Información y Comunicación como programador de apoyo.",
-    "paragraph_two": "Soy un desarrollador apasionado de la programación, con facilidad de aprendizaje y adaptación, siempre buscando aprender nuevas tecnologías.",
+    "paragraph_one": "Soy un desarrollador apasionado de la programación, con facilidad de aprendizaje y adaptación, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades para ofrecer soluciones innovadoras y eficientes.",
+    "paragraph_two": "Estoy cursando mi de último año en la carrera Ing. en Sistemas de la UAGRM, obtuve una beca de trabajo en la misma y durante tres años trabajé en el departamento de admisión estudiantil, un año en la Dirección de Tecnologías de la Información y un año para la empresa Desarrollamelo.",
     "paragraph_three": "Quiero profundizar y aportar con mis conocimientos adquiridos en la carrera además de la experiencia laboral, para aportar sólidas soluciones tecnológicas a las necesidades que pueda tener la empresa en un futuro cercano o próximo.",
     "alt_dev_img": "Desarrollador Matias Rejas",
     "perfil": "Desarrollador de aplicaciones web y movil con mayor experiencia en entornos relacionados a javascript como son react, expo, next, node, etc",
@@ -58,11 +58,19 @@
       },
       "id_3": {
         "title": "Fotografias",
-        "description": "Una aplicacion web progresiva(PWA) que permite crear eventos y generar una invitacion con un codigo qr que podra ser publica o privada y elegir la cantidad de fotgrafos que podran acudir al evento, los fotografos deben tener una subscripcion para poder publicar las fotos en la aplicacion, las fotografias se mostraran en una menor resolucion para que los asistentes puedan comprar las imagenes en alta resolucion."
+        "description": "Una aplicacion web progresiva(PWA) que permite crear eventos y generar una invitacion con un codigo qr y elegir la cantidad de fotgrafos que podran acudir al evento, los fotografos deben tener una subscripcion para poder publicar las fotos en la aplicacion, las fotografias se mostraran en una menor resolucion para que los asistentes puedan comprar las imagenes en alta resolucion."
       },
       "id_4": {
         "title": "Deudas",
         "description": "Una aplicacion para dispositivos moviles tanto android como IOS, para gestionar las deudas orientada al sector de prestamistas, en ella se pueden agregar, editar y gestionar de manera individual todas las deudas, facilitando y automatizando muchos de los procesos que se suelen hacer a mano, el codigo fuente esta subido a la plataforma de github."
+      },
+      "id_5": {
+        "title": "Protecting You",
+        "description": "Una aplicacion de control parental que controla el tipo de contenido visual que consume la cuenta protegida por medio del servicio rekognition de AWS para detectar contenido inapropiado, tambien mantiene control de las llamadas, ubicacion, contacto y mensajes administrable desde la pagina web. Tanto la aplicacion movil como el backend estan subidas a GitHub"
+      },
+      "id_6": {
+        "title": "Icon Battle (En desarrollo)",
+        "description": "Un juego enfocado a dispositivos moviles pero que tambien es compatible con navegadores, el juego es de tipo aventura textual ambientado en un battle royale con elementos RPG donde se manejan estadisticas, equipamento, estados, etc. La aplicacion aun esta en desarrollo y el codigo fuente esta subido a la plataforma de github."
       }
     }
   },
@@ -74,6 +82,7 @@
       "labelCompany": "Empresa",
       "labelCategory": "Categoria",
       "labelInstitution": "Instituiccion",
+      "labelReference": "Referencia",
       "labelProfessionalCourse": "Curso profesional",
       "labelDep": "Departamento",
       "labelExtensionCourse": "Curso de extension",
@@ -92,9 +101,15 @@
       "job1_6": "-inscripción y registro de nuevos postulantes",
       "job1_7": "-instalación y mantenimiento de aplicaciones necesarias para el registro biométrico de los postulantes",
       "job1_8": "Mantuve las mismas funciones",
-      "job2": "Programador de apoyo",
-      "job2_1": "En la Dirección de Tecnologías de la Información y Comunicación:",
-      "job2_2": "-Analisis y desarrollo de software."
+      "job2": "Developer",
+      "job3": "Developer Web Backend",
+      "job2_1": "-Desarrollo de software interno.",
+      "job2_2": "-Optimización del rendimiento.",
+      "job2_3": "-Pruebas y depuración.",
+      "job3_1": "-Gestión de bases de datos.",
+      "job3_2": "-Construcción y mantenimiento de APIs.",
+      "job3_3": "-Integración de servicios externos.",
+      "job3_4": "-Colaboración con otros equipos."
     }
   },
   "footer": {

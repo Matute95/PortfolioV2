@@ -17,7 +17,9 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Expo, Firebase, Github, Materialui, Netlify, Nextdotjs, Redux, Typescript } from "styled-icons/simple-icons";
+import { Expo, Firebase, Github, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Typescript } from "styled-icons/simple-icons";
+import { Git } from "styled-icons/boxicons-logos";
+import { Aws, Laravel, Bootstrap } from "styled-icons/fa-brands";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -333,9 +335,50 @@ export default function Portifolio() {
 			],
 			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
 			typeProject: ["WEB", "*"]
+		},{
+			id: 3,
+			title: language.portifolioPage.projects.id_5.title,
+			description: language.portifolioPage.projects.id_5.description,
+			liveDemoUrl: null,
+			image:"/img/5.jpg",
+			techs: [
+				<Tooltip toolTipText="Amazon Web Service">
+					<Aws />
+				</Tooltip>,
+				<Tooltip toolTipText="Laravel">
+					<Laravel />
+				</Tooltip>,
+				<Tooltip toolTipText="Bootstrap">
+					<Bootstrap />
+				</Tooltip>,
+				<Tooltip toolTipText="React Expo">
+					<Expo />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://github.com/Matute95/ParentalControl",
+			typeProject: ["WEB", "MOVIL", "*"]
 		},
 		{
-			id: 3,
+			id: 4,
+			title: language.portifolioPage.projects.id_4.title,
+			description: language.portifolioPage.projects.id_4.description,
+			liveDemoUrl: null,
+			image:"/img/4.jpg",
+			techs: [
+				<Tooltip toolTipText="React Expo">
+					<Expo />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://github.com/Matute95/Deudas",
+			typeProject: ["MOVIL", "*"]
+		},{
+			id: 5,
 			title: language.portifolioPage.projects.id_3.title,
 			description: language.portifolioPage.projects.id_3.description,
 			liveDemoUrl: null,
@@ -356,23 +399,28 @@ export default function Portifolio() {
 			],
 			sourceCodeLink: "https://fotografias-matias.netlify.app",
 			typeProject: ["WEB", "MOVIL", "*"]
-		},
-		{
-			id: 4,
-			title: language.portifolioPage.projects.id_4.title,
-			description: language.portifolioPage.projects.id_4.description,
+		},{
+			id: 6,
+			title: language.portifolioPage.projects.id_6.title,
+			description: language.portifolioPage.projects.id_6.description,
 			liveDemoUrl: null,
-			image:"/img/4.jpg",
+			image:"/img/6.jpg",
 			techs: [
-				<Tooltip toolTipText="React Expo">
-					<Expo />
+				<Tooltip toolTipText="Styled Components">
+					<Styledcomponents />
 				</Tooltip>,
-				<Tooltip toolTipText="Github">
-					<Github />
+				<Tooltip toolTipText="React Spring">
+					<Spring />
+				</Tooltip>,
+				<Tooltip toolTipText="React">
+					<ReactLogo />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://github.com/Matute95/Deudas",
-			typeProject: ["MOVIL", "*"]
+			sourceCodeLink: "https://github.com/Matute95/Icon_Royale",
+			typeProject: ["WEB", "MOVIL", "*"]
 		}
 	];
 
