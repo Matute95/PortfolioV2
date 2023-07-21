@@ -424,6 +424,11 @@ export default function Portifolio() {
 		}
 	];
 
+	React.useEffect(() => {
+		setArray_projects(projects)
+	  }, [language]);
+
+
 	function handleFilter(id) {
 		const p = projects.filter((item) => item.typeProject.includes(id))
 		setArray_projects(p)
