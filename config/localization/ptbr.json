@@ -10,7 +10,7 @@
   "landingPage": {
     "apresentationText": "Hola, soy",
     "typeText": "Matias Rejas",
-    "resumeText": "Desarrolador de aplicaciones webs y moviles con diseños modernos, responsivos y codigo multiplataforma",
+    "resumeText": "Desarrollador fullstack con experiencia en la creación de aplicaciones web y móviles, especializado en entornos JavaScript con manejo de bases de datos SQL/NoSQL.",
     "buttonText": "Saber más"
   },
   "servicesOffer": {
@@ -36,11 +36,12 @@
   },
   "aboutMePage": {
     "title": "SOBRE MÍ",
-    "paragraph_one": "Soy un desarrollador apasionado de la programación, con facilidad de aprendizaje y adaptación, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades para ofrecer soluciones innovadoras y eficientes.",
-    "paragraph_two": "Estoy cursando mi de último año en la carrera Ing. en Sistemas de la UAGRM, obtuve una beca de trabajo en la misma y durante tres años trabajé en el departamento de admisión estudiantil, un año en la Dirección de Tecnologías de la Información y un año para la empresa Desarrollamelo.",
-    "paragraph_three": "Quiero profundizar y aportar con mis conocimientos adquiridos en la carrera además de la experiencia laboral, para aportar sólidas soluciones tecnológicas a las necesidades que pueda tener la empresa en un futuro cercano o próximo.",
+    "paragraph_one": "Soy un desarrollador fullstack con experiencia en la creación de aplicaciones web y móviles, especializado en entornos JavaScript y con manejo de bases de datos SQL/NoSQL. Mi enfoque se centra en la entrega de soluciones eficientes, escalables y de alta calidad.",
+    "paragraph_two": "Con experiencia trabajando en startups como Desarrollamelo y GoBox, empresa en la que trabajo actualmente, he desarrollado habilidades para trabajar en ambos extremos del stack, desarrollando aplicaciones integradas y altamente funcionales.",
+    "paragraph_three": "Mi capacidad para adaptarme rápidamente a nuevas tecnologías y entornos me permite enfrentar desafíos diversos y complejos, asegurando siempre la implementación de soluciones tecnológicas innovadoras y eficientes.",
     "alt_dev_img": "Desarrollador Matias Rejas",
-    "perfil": "Desarrollador de aplicaciones web y movil con mayor experiencia en entornos relacionados a javascript como son react, expo, next, node, etc",
+    "perfil": "Ing. en Sistemas",
+    "perfil2": "29 años",
     "download": "Descargar CV"
   },
   "portifolioPage": {
@@ -49,28 +50,28 @@
     "view": "Ver Proyecto",
     "projects": {
       "id_1": {
-        "title": "Tienda de Comida Rapida",
-        "description": "Una aplicacion web progresiva(PWA) de una tienda de comida rapida instalable tanto en dispositivos moviles como en PCs, la pagina funciona como la parte cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
+        "title": "GoBoxApp",
+        "description": "Aplicacion web desarrollada sobre la plantilla Apollo en Angular con primeNG y Supabase como Backend que tiene una enorme cantidad de modulos, como gestion de proformas, clientes, productos, proveedores, calendario de actividades, etc"
       },
       "id_2": {
-        "title": "Hoja de calculo colaborativa",
-        "description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona, no tiene implementado el login asi que los nombres de los ususarios son puestos por defecto."
+        "title": "Mr. Delivery",
+        "description": "Mr. Delivery es una plataforma móvil para realizar pedidos de comida en línea. Permite a los usuarios explorar menús de restaurantes locales, seleccionar productos y seguir el estado de sus pedidos en tiempo real."
       },
       "id_3": {
-        "title": "Fotografias",
-        "description": "Una aplicacion web progresiva(PWA) que permite crear eventos y generar una invitacion con un codigo qr y elegir la cantidad de fotgrafos que podran acudir al evento, los fotografos deben tener una subscripcion para poder publicar las fotos en la aplicacion, las fotografias se mostraran en una menor resolucion para que los asistentes puedan comprar las imagenes en alta resolucion."
+        "title": "Tingo",
+        "description": "Tingo Comercio es una aplicación diseñada para simplificar la gestión de pedidos y el inventario de productos para negocios. Permite administrar pedidos pendientes, en preparación y entregados, además de habilitar y editar productos. También ofrece funciones avanzadas como historial de pedidos y estadísticas de ganancias semanales y mensuales."
       },
       "id_4": {
-        "title": "Deudas",
-        "description": "Una aplicacion para dispositivos moviles tanto android como IOS, para gestionar las deudas orientada al sector de prestamistas, en ella se pueden agregar, editar y gestionar de manera individual todas las deudas, facilitando y automatizando muchos de los procesos que se suelen hacer a mano, el codigo fuente esta subido a la plataforma de github."
-      },
-      "id_5": {
         "title": "Protecting You",
         "description": "Una aplicacion de control parental que controla el tipo de contenido visual que consume la cuenta protegida por medio del servicio rekognition de AWS para detectar contenido inapropiado, tambien mantiene control de las llamadas, ubicacion, contacto y mensajes administrable desde la pagina web. Tanto la aplicacion movil como el backend estan subidas a GitHub"
       },
+      "id_5": {
+        "title": "Tienda de Comida Rapida",
+        "description": "Una aplicacion web progresiva(PWA) accesible desde cualquier dispositivo, la pagina funciona como la parte cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
+      },
       "id_6": {
-        "title": "Icon Battle (En desarrollo)",
-        "description": "Un juego enfocado a dispositivos moviles pero que tambien es compatible con navegadores, el juego es de tipo aventura textual ambientado en un battle royale con elementos RPG donde se manejan estadisticas, equipamento, estados, etc. La aplicacion aun esta en desarrollo y el codigo fuente esta subido a la plataforma de github."
+        "title": "Hoja de calculo colaborativa",
+        "description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona."
       }
     }
   },
@@ -102,14 +103,24 @@
       "job1_7": "-instalación y mantenimiento de aplicaciones necesarias para el registro biométrico de los postulantes",
       "job1_8": "Mantuve las mismas funciones",
       "job2": "Developer",
-      "job3": "Developer Web Backend",
       "job2_1": "-Desarrollo de software interno.",
       "job2_2": "-Optimización del rendimiento.",
       "job2_3": "-Pruebas y depuración.",
+      "job3": "Backend Developer",
       "job3_1": "-Gestión de bases de datos.",
       "job3_2": "-Construcción y mantenimiento de APIs.",
       "job3_3": "-Integración de servicios externos.",
-      "job3_4": "-Colaboración con otros equipos."
+      "job3_4": "-Colaboración con otros equipos.",
+      "job4": "Freelancer",
+      "job4_1": "-Gestión de proyectos.",
+      "job4_2": "-Creacion y gestion de bases de datos.",
+      "job4_3": "-Optimización en buscadores SEO.",
+      "job4_4": "-Creacion de aplicaciones web y movil.",
+      "job5": "Full Stack Developer",
+      "job5_1": "-Gestión de bases de datos.",
+      "job5_2": "-Desarrollo forntend y backend.",
+      "job5_3": "-Desarrollo de aplicacion movil.",
+      "job5_4": "-Automatizacion de procesos."
     }
   },
   "footer": {

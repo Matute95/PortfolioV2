@@ -10,8 +10,8 @@ import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
-import { Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Laravel, Php, Python, ReactLogo } from "styled-icons/fa-brands";
-import { Expo, Fastapi, Firebase, Materialui } from "styled-icons/simple-icons";
+import { Angular, Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Laravel, Node, Php, Python, ReactLogo } from "styled-icons/fa-brands";
+import { Expo, Fastapi, Firebase, Materialui, Supabase } from "styled-icons/simple-icons";
 import { Flutter, TailwindCss } from "styled-icons/boxicons-logos";
 import Tooltip from "@/components/Tooltip";
 
@@ -177,7 +177,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<CodeBlock />
 						<h3>{language.servicesOffer.cards.framework.title}</h3>
-						{icon([<Laravel />,<ReactLogo />,<Flutter />,<Expo />],['Laravel','React.Js','Flutter','React Expo'])}
+						{icon([<Node />,<ReactLogo />,<Flutter />,<Angular />],['Node','React.Js','Flutter','Angular'])}
 						<p>{language.servicesOffer.cards.framework.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
@@ -185,7 +185,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<DesignServices />
 						<h3>{language.servicesOffer.cards.tools.title}</h3>
-						{icon([<Fastapi/>, <Docker/>,<Aws/>,<Firebase/>],['Fast API','Doker','Amazon Web Service','Firebase'])}
+						{icon([<Supabase/>, <Docker/>,<Aws/>,<Firebase/>],['Supabase','Doker','Amazon Web Service','Firebase'])}
 						<p>{language.servicesOffer.cards.tools.contentText}</p>
 					</CardService>
 				</ScrollAnimation>

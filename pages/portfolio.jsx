@@ -17,9 +17,9 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Expo, Firebase, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Typescript } from "styled-icons/simple-icons";
-import { Git } from "styled-icons/boxicons-logos";
-import { Aws, Laravel, Bootstrap } from "styled-icons/fa-brands";
+import { Expo, Firebase, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Supabase, Typescript } from "styled-icons/simple-icons";
+import { Flutter, Git } from "styled-icons/boxicons-logos";
+import { Aws, Laravel, Bootstrap, Algolia, Angular, Node } from "styled-icons/fa-brands";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -292,55 +292,66 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_1.title,
 			description: language.portifolioPage.projects.id_1.description,
 			liveDemoUrl: null,
-			image:"/img/3.jpg",
+			image:"/img/1.png",
 			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
+				<Tooltip toolTipText="Angular">
+					<Angular />
 				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<Firebase />
+				<Tooltip toolTipText="Supabase">
+					<Supabase />
 				</Tooltip>,
-				<Tooltip toolTipText="Redux">
-					<Redux />
-				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<Netlify />
+				<Tooltip toolTipText="Algolia">
+					<Algolia />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://app-comida-matias.netlify.app",
-			typeProject: ["WEB", "MOVIL", "*"]
+			sourceCodeLink: "https://go.goboxapp.com/",
+			typeProject: ["WEB", "*"]
 		},
 		{
 			id: 2,
 			title: language.portifolioPage.projects.id_2.title,
 			description: language.portifolioPage.projects.id_2.description,
 			liveDemoUrl: null,
-			image:"/img/1.jpg",
+			image:"/img/2.png",
 			techs: [
-				<Tooltip toolTipText="Next">
-					<Nextdotjs />
+				<Tooltip toolTipText="Flutter">
+					<Flutter />
 				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
+				<Tooltip toolTipText="Laravel">
+					<Laravel />
 				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<Netlify />
+				<Tooltip toolTipText="Node">
+					<Node />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
-			typeProject: ["WEB", "*"]
+			sourceCodeLink: "https://mrdelivery.com.bo/",
+			typeProject: ["MOVIL", "*"]
 		},{
 			id: 3,
-			title: language.portifolioPage.projects.id_5.title,
-			description: language.portifolioPage.projects.id_5.description,
+			title: language.portifolioPage.projects.id_3.title,
+			description: language.portifolioPage.projects.id_3.description,
 			liveDemoUrl: null,
-			image:"/img/5.jpg",
+			image:"/img/3.png",
+			techs: [
+				<Tooltip toolTipText="Flutter">
+					<Flutter />
+				</Tooltip>,
+				<Tooltip toolTipText="Laravel">
+					<Laravel />
+				</Tooltip>,
+				<Tooltip toolTipText="Node">
+					<Node />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://apptingo.com/info/",
+			typeProject: ["MOVIL", "*"]
+		},
+		{
+			id: 4,
+			title: language.portifolioPage.projects.id_4.title,
+			description: language.portifolioPage.projects.id_4.description,
+			liveDemoUrl: null,
+			image:"/img/4.jpg",
 			techs: [
 				<Tooltip toolTipText="Amazon Web Service">
 					<Aws />
@@ -360,44 +371,30 @@ export default function Portifolio() {
 			],
 			sourceCodeLink: "https://github.com/Matute95/ParentalControl",
 			typeProject: ["WEB", "MOVIL", "*"]
-		},
-		{
-			id: 4,
-			title: language.portifolioPage.projects.id_4.title,
-			description: language.portifolioPage.projects.id_4.description,
-			liveDemoUrl: null,
-			image:"/img/4.jpg",
-			techs: [
-				<Tooltip toolTipText="React Expo">
-					<Expo />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://github.com/Matute95/Deudas",
-			typeProject: ["MOVIL", "*"]
 		},{
 			id: 5,
-			title: language.portifolioPage.projects.id_3.title,
-			description: language.portifolioPage.projects.id_3.description,
+			title: language.portifolioPage.projects.id_5.title,
+			description: language.portifolioPage.projects.id_5.description,
 			liveDemoUrl: null,
-			image:"/img/2.jpg",
+			image:"/img/5.jpg",
 			techs: [
 				<Tooltip toolTipText="ReactJS">
 					<ReactLogo />
 				</Tooltip>,
-				<Tooltip toolTipText="MaterialUI">
-					<Materialui />
-				</Tooltip>,
 				<Tooltip toolTipText="Firebase">
 					<Firebase />
+				</Tooltip>,
+				<Tooltip toolTipText="Redux">
+					<Redux />
+				</Tooltip>,
+				<Tooltip toolTipText="Css">
+					<Css3 />
 				</Tooltip>,
 				<Tooltip toolTipText="Netlify">
 					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://fotografias-matias.netlify.app",
+			sourceCodeLink: "https://app-comida-matias.netlify.app",
 			typeProject: ["WEB", "MOVIL", "*"]
 		},{
 			id: 6,
@@ -406,21 +403,21 @@ export default function Portifolio() {
 			liveDemoUrl: null,
 			image:"/img/6.jpg",
 			techs: [
-				<Tooltip toolTipText="Styled Components">
-					<Styledcomponents />
+				<Tooltip toolTipText="Next">
+					<Nextdotjs />
 				</Tooltip>,
-				<Tooltip toolTipText="React Spring">
-					<Spring />
+				<Tooltip toolTipText="Typescript">
+					<Typescript />
 				</Tooltip>,
-				<Tooltip toolTipText="React">
-					<ReactLogo />
+				<Tooltip toolTipText="Css">
+					<Css3 />
 				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
+				<Tooltip toolTipText="Netlify">
+					<Netlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://github.com/Matute95/Icon_Royale",
-			typeProject: ["WEB", "MOVIL", "*"]
+			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			typeProject: ["WEB", "*"]
 		}
 	];
 

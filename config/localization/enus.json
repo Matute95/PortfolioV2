@@ -1,128 +1,139 @@
 {
-  "id": "ptbr",
+  "id": "en",
   "navbarMenu": {
-  "labelHome": "HOME",
-  "labelServices": "SKILLS",
-  "labelAboutMe": "ABOUT ME",
-  "labelPortifolio": "PORTFOLIO",
-  "labelExperience": "EXPERIENCE"
+    "labelHome": "HOME",
+    "labelServices": "SKILLS",
+    "labelAboutMe": "ABOUT ME",
+    "labelPortifolio": "PORTFOLIO",
+    "labelExperience": "EXPERIENCE"
   },
   "landingPage": {
-  "apresentationText": "Hello, I am",
-  "typeText": "Matias Rejas",
-  "resumeText": "Developer of web and mobile applications with modern, responsive designs and cross-platform code.",
-  "buttonText": "Learn More"
+    "apresentationText": "Hello, I'm",
+    "typeText": "Matias Rejas",
+    "resumeText": "Full-stack developer with experience in creating web and mobile applications, specialized in JavaScript environments with SQL/NoSQL database management.",
+    "buttonText": "Learn More"
   },
   "servicesOffer": {
-  "title": "SKILLS",
-  "cards": {
-  "develop": {
-  "title": "Development",
-  "contentText": "The languages I usually use for application development."
-  },
-  "design": {
-  "title": "Design",
-  "contentText": "Tools I use to apply styles to my applications."
-  },
-  "framework": {
-  "title": "Frameworks",
-  "contentText": "My preferred frameworks for application development."
-  },
-  "tools": {
-  "title": "Tools",
-  "contentText": "Multipurpose tools I use in my projects."
-  }
-  }
+    "title": "SKILLS",
+    "cards": {
+      "develop": {
+        "title": "Development",
+        "contentText": "Languages I frequently use for application development."
+      },
+      "design": {
+        "title": "Design",
+        "contentText": "Tools I use for styling my applications."
+      },
+      "framework": {
+        "title": "Frameworks",
+        "contentText": "My preferred frameworks for application development."
+      },
+      "tools": {
+        "title": "Tools",
+        "contentText": "Multipurpose tools I use in my projects."
+      }
+    }
   },
   "aboutMePage": {
-  "title": "ABOUT ME",
-  "paragraph_one": "I am a passionate developer with a knack for learning and adapting. I am always seeking to learn new technologies and improve my skills to offer innovative and efficient solutions.",
-  "paragraph_two": "I am currently in my final year of studies in Systems Engineering at UAGRM. I earned a work scholarship at the university and worked for three years in the Student Admission Department, one year in the Information Technology Directorate, and one year for the company Desarrollamelo.",
-  "paragraph_three": "I aim to deepen and contribute with the knowledge I have gained during my studies and work experience to provide robust technological solutions to the company's needs in the near future.",
-  "alt_dev_img": "Developer Matias Rejas",
-  "perfil": "Developer of web and mobile applications with extensive experience in JavaScript-related environments such as React, Expo, Next, Node, etc.",
-  "download": "Download CV"
+    "title": "ABOUT ME",
+    "paragraph_one": "I'm a full-stack developer with experience in creating web and mobile applications, specialized in JavaScript environments with SQL/NoSQL database management. My focus is on delivering efficient, scalable, and high-quality solutions.",
+    "paragraph_two": "With experience working at startups like Desarrollamelo and GoBox, where I currently work, I've developed skills to work on both ends of the stack, developing integrated and highly functional applications.",
+    "paragraph_three": "My ability to quickly adapt to new technologies and environments allows me to tackle diverse and complex challenges, ensuring the implementation of innovative and efficient technological solutions.",
+    "alt_dev_img": "Developer Matias Rejas",
+    "perfil": "Systems Engineer",
+    "perfil2": "29 years old",
+    "download": "Download CV"
   },
   "portifolioPage": {
-  "title": "PROJECTS",
-  "labelFilter": "ALL",
-  "view": "View Project",
-  "projects": {
-  "id_1": {
-  "title": "Fast Food Store",
-  "description": "A progressive web application (PWA) for a fast food store, installable on both mobile devices and PCs. The page functions as the client-side of a delivery application, allowing users to add products to a cart, modify the cart, and view the total cost before proceeding to payment."
-  },
-  "id_2": {
-  "title": "Collaborative Spreadsheet",
-  "description": "A collaborative spreadsheet where multiple people can work simultaneously. To test the sessions, you can open the project from another device or open multiple windows with the same link, and the application will treat each one as a new person. It doesn't have a login system, so user names are set by default."
-  },
-  "id_3": {
-  "title": "Photographs",
-  "description": "A progressive web application (PWA) that allows users to create events and generate an invitation with a QR code. Users can also choose the number of photographers who can attend the event. Photographers must have a subscription to publish photos in the application. The photos are displayed in lower resolution, and attendees can purchase high-resolution images."
-  },
-  "id_4": {
-  "title": "Debts Manager",
-  "description": "A mobile application for both Android and iOS devices, designed to manage debts, primarily targeted at lenders. Users can add, edit, and manage individual debts, streamlining and automating many of the manual processes. The source code is available on GitHub."
-  },
-  "id_5": {
-  "title": "Protecting You",
-  "description": "A parental control application that manages the visual content consumed by the protected account using AWS's Rekognition service to detect inappropriate content. It also keeps track of calls, location, contacts, and messages, all manageable from a web page. Both the mobile application and the backend are available on GitHub."
-  },
-  "id_6": {
-  "title": "Icon Battle (Under Development)",
-  "description": "A game focused on mobile devices but also compatible with browsers. The game is a text-based adventure set in a battle royale with RPG elements, where players manage statistics, equipment, states, etc. The application is still in development, and the source code is available on GitHub."
-  }
-  }
+    "title": "PROJECTS",
+    "labelFilter": "ALL",
+    "view": "View Project",
+    "projects": {
+      "id_1": {
+        "title": "GoBoxApp",
+        "description": "Web application developed using the Apollo template in Angular with primeNG and Supabase as Backend, which has a large number of modules, such as managing quotes, clients, products, suppliers, activity calendar, etc."
+      },
+      "id_2": {
+        "title": "Mr. Delivery",
+        "description": "Mr. Delivery is a mobile platform for ordering food online. It allows users to explore menus from local restaurants, select products, and track the status of their orders in real time."
+      },
+      "id_3": {
+        "title": "Tingo",
+        "description": "Tingo Comercio is an application designed to simplify order management and inventory for businesses. It allows managing pending, preparation, and delivered orders, as well as enabling and editing products. It also offers advanced features such as order history and weekly and monthly profit statistics."
+      },
+      "id_4": {
+        "title": "Protecting You",
+        "description": "A parental control application that monitors the type of visual content consumed by the protected account using AWS rekognition service to detect inappropriate content. It also controls calls, location, contacts, and messages manageable from the web page. Both the mobile application and the backend are uploaded to GitHub."
+      },
+      "id_5": {
+        "title": "Fast Food Store",
+        "description": "A Progressive Web Application (PWA) accessible from any device, serving as the client-side of a delivery application. Users can add products to a cart, remove or continue adding, and see a total cost before proceeding to payment."
+      },
+      "id_6": {
+        "title": "Collaborative Spreadsheet",
+        "description": "A collaborative spreadsheet where multiple users can work simultaneously. To test sessions, you can open the project from another device or open more than one window with the same link, and the application will consider it as a new person."
+      }
+    }
   },
   "experiencePage": {
-  "title": "EXPERIENCE AND TITLES",
-  "timeline": {
-  "labelPosition": "Position",
-  "labelTitle": "Title",
-  "labelCompany": "Company",
-  "labelCategory": "Category",
-  "labelInstitution": "Institution",
-  "labelReference": "Reference",
-  "labelProfessionalCourse": "Professional Course",
-  "labelDep": "Department",
-  "labelExtensionCourse": "Extension Course",
-  "labelFunc": "Functions",
-  "cert": "View Certificate",
-  "title1": "Digital Marketing Platforms & Social Media Business",
-  "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
-  "title3": "JavaScript Course",
-  "title4": "Android Course with Kotlin",
-  "job1": "Student Admission Department",
-  "job1_1": "Intern",
-  "job1_2": "For Academic Proficiency Tests (PSA):",
-  "job1_3": "-Responsible for maintaining, repairing, and installing equipment in different faculty modules.",
-  "job1_4": "-Configuring and testing ethernet connectivity of equipment to connect with UAGRM servers",
-  "job1_5": "-Installing, configuring, and testing applications necessary for the exams",
-  "job1_6": "-Registration and enrollment of new applicants",
-  "job1_7": "-Installation and maintenance of applications necessary for biometric registration of applicants",
-  "job1_8": "Continued performing the same functions",
-  "job2": "Developer",
-  "job3": "Web Backend Developer",
-  "job2_1": "-Internal software development.",
-  "job2_2": "-Performance optimization.",
-  "job2_3": "-Testing and debugging.",
-  "job3_1": "-Database management.",
-  "job3_2": "-Building and maintaining APIs.",
-  "job3_3": "-Integration of external services.",
-  "job3_4": "-Collaboration with other teams."
-  }
+    "title": "EXPERIENCE AND TITLES",
+    "timeline": {
+      "labelPosition": "Position",
+      "labelTitle": "Title",
+      "labelCompany": "Company",
+      "labelCategory": "Category",
+      "labelInstitution": "Institution",
+      "labelReference": "Reference",
+      "labelProfessionalCourse": "Professional Course",
+      "labelDep": "Department",
+      "labelExtensionCourse": "Extension Course",
+      "labelFunc": "Functions",
+      "cert": "View Certificate",
+      "title1": "Digital Marketing & Social Media Business Platforms",
+      "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
+      "title3": "JavaScript Course",
+      "title4": "Android Course with Kotlin",
+      "job1": "Student Admission",
+      "job1_1": "Scholar",
+      "job1_2": "For academic sufficiency tests (PSA):",
+      "job1_3": "-Responsible for maintenance, repair, and installation of equipment in different faculty modules.",
+      "job1_4": "-Configuration and testing of ethernet connectivity of equipment to connect with UAGRM servers",
+      "job1_5": "-Installation, configuration, and testing of necessary applications for taking the exam",
+      "job1_6": "-registration and registration of new applicants",
+      "job1_7": "-installation and maintenance of applications necessary for biometric registration of applicants",
+      "job1_8": "I kept the same functions",
+      "job2": "Developer",
+      "job2_1": "-Internal software development.",
+      "job2_2": "-Performance optimization.",
+      "job2_3": "-Testing and debugging.",
+      "job3": "Backend Developer",
+      "job3_1": "-Database management.",
+      "job3_2": "-Construction and maintenance of APIs.",
+      "job3_3": "-Integration of external services.",
+      "job3_4": "-Collaboration with other teams.",
+      "job4": "Freelancer",
+      "job4_1": "-Project management.",
+      "job4_2": "-Creation and management of databases.",
+      "job4_3": "-SEO optimization.",
+      "job4_4": "-Creation of web and mobile applications.",
+      "job5": "Full Stack Developer",
+      "job5_1": "-Database management.",
+      "job5_2": "-Frontend and backend development.",
+      "job5_3": "-Mobile application development.",
+      "job5_4": "-Process automation."
+    }
   },
   "footer": {
-  "labelNavigation": {
-  "title": "NAVIGATION",
-  "labelHome": "Home",
-  "labelServices": "Services",
-  "labelAboutMe": "About Me",
-  "labelPortifolio": "Projects",
-  "labelExperience": "Experience"
-  },
-  "labelHost": {
-  "title": "HOSTING"
+    "labelNavigation": {
+      "title": "NAVIGATION",
+      "labelHome": "Home",
+      "labelServices": "Skills",
+      "labelAboutMe": "About Me",
+      "labelPortifolio": "Projects",
+      "labelExperience": "Experience"
+    },
+    "labelHost": {
+      "title": "HOSPEDAGE"
+    }
   }
-  }
-  }
+}
