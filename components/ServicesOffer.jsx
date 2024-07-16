@@ -10,8 +10,10 @@ import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
-import { Angular, Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Laravel, Node, Php, Python, ReactLogo } from "styled-icons/fa-brands";
-import { Expo, Fastapi, Firebase, Materialui, Supabase } from "styled-icons/simple-icons";
+import { Angular, Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Node, Php, Python, ReactLogo } from "styled-icons/fa-brands";
+import { Firebase } from '@styled-icons/boxicons-logos/Firebase';
+import { Materialdesign } from '@styled-icons/simple-icons/Materialdesign';
+import { Supabase } from '@styled-icons/simple-icons/Supabase';
 import { Flutter, TailwindCss } from "styled-icons/boxicons-logos";
 import Tooltip from "@/components/Tooltip";
 
@@ -169,7 +171,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<DesignIdeas />
 						<h3>{language.servicesOffer.cards.design.title}</h3>
-						{icon([<Css3Alt />,<Materialui />,<TailwindCss />,<Bootstrap />],['CSS','Material UI','Tailwind','Bootstrap'])}
+						{icon([<Css3Alt />,<Materialdesign />,<TailwindCss />,<Bootstrap />],['CSS','Material UI','Tailwind','Bootstrap'])}
 						<p>{language.servicesOffer.cards.design.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
