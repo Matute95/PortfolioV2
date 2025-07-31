@@ -305,7 +305,7 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://go.goboxapp.com/",
-			typeProject: ["WEB", "*"]
+			typeProject: ["MOVIL", "*"]
 		},
 		{
 			id: 2,
@@ -325,7 +325,7 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://mrdelivery.com.bo/",
-			typeProject: ["MOVIL", "*"]
+			typeProject: ["WEB", "*"]
 		},{
 			id: 3,
 			title: language.portifolioPage.projects.id_3.title,
@@ -351,7 +351,7 @@ export default function Portifolio() {
 			title: language.portifolioPage.projects.id_4.title,
 			description: language.portifolioPage.projects.id_4.description,
 			liveDemoUrl: null,
-			image:"/img/4.jpg",
+			image:"/img/4.png",
 			techs: [
 				<Tooltip toolTipText="Amazon Web Service">
 					<Aws />
@@ -370,13 +370,13 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://github.com/Matute95/ParentalControl",
-			typeProject: ["WEB", "MOVIL", "*"]
+			typeProject: ["MOVIL", "*"]
 		},{
 			id: 5,
 			title: language.portifolioPage.projects.id_5.title,
 			description: language.portifolioPage.projects.id_5.description,
 			liveDemoUrl: null,
-			image:"/img/5.jpg",
+			image:"/img/5.png",
 			techs: [
 				<Tooltip toolTipText="ReactJS">
 					<ReactLogo />
@@ -395,13 +395,57 @@ export default function Portifolio() {
 				</Tooltip>
 			],
 			sourceCodeLink: "https://app-comida-matias.netlify.app",
-			typeProject: ["WEB", "MOVIL", "*"]
+			typeProject: ["WEB", "*"]
 		},{
 			id: 6,
 			title: language.portifolioPage.projects.id_6.title,
 			description: language.portifolioPage.projects.id_6.description,
 			liveDemoUrl: null,
-			image:"/img/6.jpg",
+			image:"/img/6.png",
+			techs: [
+				<Tooltip toolTipText="Next">
+					<Nextdotjs />
+				</Tooltip>,
+				<Tooltip toolTipText="Typescript">
+					<Typescript />
+				</Tooltip>,
+				<Tooltip toolTipText="Css">
+					<Css3 />
+				</Tooltip>,
+				<Tooltip toolTipText="Netlify">
+					<Netlify />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			typeProject: ["MOVIL", "*"]
+		},{
+			id: 7,
+			title: language.portifolioPage.projects.id_7.title,
+			description: language.portifolioPage.projects.id_7.description,
+			liveDemoUrl: null,
+			image:"/img/7.png",
+			techs: [
+				<Tooltip toolTipText="Next">
+					<Nextdotjs />
+				</Tooltip>,
+				<Tooltip toolTipText="Typescript">
+					<Typescript />
+				</Tooltip>,
+				<Tooltip toolTipText="Css">
+					<Css3 />
+				</Tooltip>,
+				<Tooltip toolTipText="Netlify">
+					<Netlify />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			typeProject: ["MOVIL", "*"]
+		},{
+			id: 8,
+			title: language.portifolioPage.projects.id_8.title,
+			description: language.portifolioPage.projects.id_8.description,
+			liveDemoUrl: null,
+			image:"/img/8.jpg",
 			techs: [
 				<Tooltip toolTipText="Next">
 					<Nextdotjs />

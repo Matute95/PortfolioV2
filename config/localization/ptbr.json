@@ -10,68 +10,76 @@
   "landingPage": {
     "apresentationText": "Hola, soy",
     "typeText": "Matias Rejas",
-    "resumeText": "Desarrollador fullstack con experiencia en la creación de aplicaciones web y móviles, especializado en entornos JavaScript con manejo de bases de datos SQL/NoSQL.",
+    "resumeText": "Desarrollador fullstack orientado a la creación de soluciones modernas y escalables, con visión estratégica y experiencia en automatización de flujos de trabajo.",
     "buttonText": "Saber más"
   },
   "servicesOffer": {
     "title": "HABILIDADES",
     "cards": {
       "develop": {
-        "title": "Desarrollo",
-        "contentText": "Los lenguajes que suelo usar para el desarrollo de aplicaciones."
+        "title": "Stack",
+        "contentText": "Entornos que mas uso para desarrollar mis proyectos."
       },
       "design": {
-        "title": "Diseño",
-        "contentText": "Herramientas que manejo para aplicar estilos a mis aplicaciones."
+        "title": "No-Code",
+        "contentText": "Herramientas visuales y automatizaciones que suelo usar."
       },
       "framework": {
-        "title": "Frameworks",
-        "contentText": "Mis frameworks preferidos para el desarrollo de aplicaciones."
+        "title": "Cloud",
+        "contentText": "Servicios backend y APIs que integro en mis proyectos."
       },
       "tools": {
-        "title": "Herramientas",
-        "contentText": "Herramientas multiproposito que ocupo en mis proyectos."
+        "title": "DevOps",
+        "contentText": "Herramientas que uso para desplegar y mantener software."
       }
     }
   },
   "aboutMePage": {
     "title": "SOBRE MÍ",
-    "paragraph_one": "Soy un desarrollador fullstack con experiencia en la creación de aplicaciones web y móviles, especializado en entornos JavaScript y con manejo de bases de datos SQL/NoSQL. Mi enfoque se centra en la entrega de soluciones eficientes, escalables y de alta calidad.",
-    "paragraph_two": "Con experiencia trabajando en startups como Desarrollamelo y GoBox, empresa en la que trabajo actualmente, he desarrollado habilidades para trabajar en ambos extremos del stack, desarrollando aplicaciones integradas y altamente funcionales.",
+    "paragraph_one": "Soy un desarrollador fullstack versátil, acostumbrado a adaptarme rápidamente a nuevos entornos, tecnologías y equipos. Mi enfoque se centra en la entrega de soluciones eficientes, escalables y de alta calidad.",
+    "paragraph_two": "He trabajado en startups como Desarrollamelo, GoBox y OpenCities, participando en todas las etapas del desarrollo: desde la concepción del producto hasta su implementación y evolución. En roles técnicos y de liderazgo, he combinado visión estratégica con ejecución práctica, identificando oportunidades de automatización de flujos internos para optimizar tiempos y recursos.",
     "paragraph_three": "Mi capacidad para adaptarme rápidamente a nuevas tecnologías y entornos me permite enfrentar desafíos diversos y complejos, asegurando siempre la implementación de soluciones tecnológicas innovadoras y eficientes.",
     "alt_dev_img": "Desarrollador Matias Rejas",
     "perfil": "Ing. en Sistemas",
-    "perfil2": "29 años",
+    "perfil2": "30 años",
     "download": "Descargar CV"
   },
   "portifolioPage": {
-    "title": "PROYECTOS",
+    "title": "PORTAFOLIO",
     "labelFilter": "TODO",
     "view": "Ver Proyecto",
     "projects": {
       "id_1": {
-        "title": "GoBoxApp",
-        "description": "Aplicacion web desarrollada sobre la plantilla Apollo en Angular con primeNG y Supabase como Backend que tiene una enorme cantidad de modulos, como gestion de proformas, clientes, productos, proveedores, calendario de actividades, etc"
+        "title": "OpenVote App",
+        "description": "Aplicacion para la gestion de militancia de partidos politicos que ofrece una manera visual de ver y crear eventos en el mapa que es compartido con los demas miembros con restricciones por nivel."
       },
       "id_2": {
+        "title": "OpenCities Web",
+        "description": "Pagina oficial de opencities que ademas del sitio estatico contiene una web app que es basicamente lo mismo que la app movil pero con apartados para el colaborador, como un dashboard y un crm."
+      },
+      "id_3": {
+        "title": "OpenCities App",
+        "description": "La aplicacion funciona como un centro de reportes de incidentes que alerta a los usuarios cercanos y tambien a los colaboradores que atienden ese tipo de reportes"
+      },
+      "id_4": {
+        "title": "GoBox App",
+        "description": "Una aplicacion tipo delivery de materiales de construccion, pero con herramientas que ayudan a visualizar y gestionar variables relacionadas al rubro de la construccion."
+      },
+      "id_5": {
+        "title": "GoBox CRM",
+        "description": "Aplicacion web desarrollada con Angular en el frontend con primeNG y Supabase como backend que tiene una enorme cantidad de modulos, como gestion de proformas, clientes, productos, proveedores, calendario de actividades, etc"
+      },
+      "id_6": {
         "title": "Mr. Delivery",
         "description": "Mr. Delivery es una plataforma móvil para realizar pedidos de comida en línea. Permite a los usuarios explorar menús de restaurantes locales, seleccionar productos y seguir el estado de sus pedidos en tiempo real."
       },
-      "id_3": {
+      "id_7": {
         "title": "Tingo",
         "description": "Tingo Comercio es una aplicación diseñada para simplificar la gestión de pedidos y el inventario de productos para negocios. Permite administrar pedidos pendientes, en preparación y entregados, además de habilitar y editar productos. También ofrece funciones avanzadas como historial de pedidos y estadísticas de ganancias semanales y mensuales."
       },
-      "id_4": {
-        "title": "Protecting You",
-        "description": "Una aplicacion de control parental que controla el tipo de contenido visual que consume la cuenta protegida por medio del servicio rekognition de AWS para detectar contenido inapropiado, tambien mantiene control de las llamadas, ubicacion, contacto y mensajes administrable desde la pagina web. Tanto la aplicacion movil como el backend estan subidas a GitHub"
-      },
-      "id_5": {
+      "id_8": {
         "title": "Tienda de Comida Rapida",
         "description": "Una aplicacion web progresiva(PWA) accesible desde cualquier dispositivo, la pagina funciona como la parte cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
-      },
-      "id_6": {
-        "title": "Hoja de calculo colaborativa",
-        "description": "Una hoja de calculo colaborativa en la que podran trabajar de forma simultanea las personas que tengan una sesion abierta, para probar las sesiones puede abrir el proyecto desde otro dispositivo o abrir mas de una ventana con el mismo enlace y la aplicacion la tomara en cuenta como una nueva persona."
       }
     }
   },
@@ -93,34 +101,30 @@
       "title2": "Analisis de trafico para el descubrimiento de ataques informaticos con Wireshark",
       "title3": "Curso de Javascript",
       "title4": "Curso de Android con Kotlin",
-      "job1": "Admision Estudiantil",
-      "job1_1": "Becario",
-      "job1_2": "Para las pruebas de suficiencia académica (PSA):",
-      "job1_3": "-Encargado del mantenimiento, reparación e instalación de equipos en los diferentes módulos facultativos.",
-      "job1_4": "-Configuración y testeo de la conectividad ethernet de los equipos para conectar con los servidores de la UAGRM",
-      "job1_5": "-Instalación, configuración y testeo de aplicaciones necesarias para la toma del examen",
-      "job1_6": "-inscripción y registro de nuevos postulantes",
-      "job1_7": "-instalación y mantenimiento de aplicaciones necesarias para el registro biométrico de los postulantes",
-      "job1_8": "Mantuve las mismas funciones",
-      "job2": "Developer",
-      "job2_1": "-Desarrollo de software interno.",
-      "job2_2": "-Optimización del rendimiento.",
-      "job2_3": "-Pruebas y depuración.",
-      "job3": "Backend Developer",
-      "job3_1": "-Gestión de bases de datos.",
-      "job3_2": "-Construcción y mantenimiento de APIs.",
-      "job3_3": "-Integración de servicios externos.",
-      "job3_4": "-Colaboración con otros equipos.",
-      "job4": "Freelancer",
-      "job4_1": "-Gestión de proyectos.",
-      "job4_2": "-Creacion y gestion de bases de datos.",
-      "job4_3": "-Optimización en buscadores SEO.",
-      "job4_4": "-Creacion de aplicaciones web y movil.",
-      "job5": "Full Stack Developer",
-      "job5_1": "-Gestión de bases de datos.",
-      "job5_2": "-Desarrollo forntend y backend.",
-      "job5_3": "-Desarrollo de aplicacion movil.",
-      "job5_4": "-Automatizacion de procesos."
+      "job1": "Developer",
+      "job1_1": "-Desarrollo de software interno.",
+      "job1_2": "-Optimización del rendimiento.",
+      "job1_3": "-Pruebas y depuración.",
+      "job2": "Backend Developer",
+      "job2_1": "-Gestión de bases de datos.",
+      "job2_2": "-Construcción y mantenimiento de APIs.",
+      "job2_3": "-Integración de servicios externos.",
+      "job2_4": "-Colaboración con otros equipos.",
+      "job3": "Freelancer",
+      "job3_1": "-Gestión de proyectos.",
+      "job3_2": "-Creacion y gestion de bases de datos.",
+      "job3_3": "-Optimización en buscadores SEO.",
+      "job3_4": "-Creacion de aplicaciones web y movil.",
+      "job4": "Full Stack Developer",
+      "job4_1": "-Gestión de bases de datos.",
+      "job4_2": "-Desarrollo forntend y backend.",
+      "job4_3": "-Desarrollo de aplicacion movil.",
+      "job4_4": "-Automatizacion de procesos.",
+      "job5": "CTO",
+      "job5_1": "-Desarrollo de MVPs y despliegue de productos.",
+      "job5_2": "-Administración de bases de datos y servidores.",
+      "job5_3": "-Integración de servicios externos y APIs.",
+      "job5_4": "-Implementación de analíticas y monitoreo."
     }
   },
   "footer": {

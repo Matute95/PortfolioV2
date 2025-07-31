@@ -1,21 +1,21 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
+import { useState } from "react";
 
 //Styled icons
 import { Robot } from "@styled-icons/fa-solid/Robot";
 import { DesignServices } from "@styled-icons/material-rounded/DesignServices";
-import { DesignIdeas } from "@styled-icons/fluentui-system-filled/DesignIdeas";
 import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
+import { Algolia, Bootstrap, Css3Alt, Docker, Node, Python, ReactLogo, Stripe } from "styled-icons/fa-brands";
+import { SiAlgolia, SiFirebase, SiSupabase, SiMake, SiCodemagic, SiRender, SiReact, SiFlutter, SiPython, SiStripe, SiGit, SiDocker, SiNetlify, SiNodedotjs, SiZapier } from "react-icons/si";
+
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
-import { Angular, Aws, Bootstrap, Css3Alt, Docker, Html5, Js, Node, Php, Python, ReactLogo } from "styled-icons/fa-brands";
-import { Firebase } from '@styled-icons/boxicons-logos/Firebase';
 import { Materialdesign } from '@styled-icons/simple-icons/Materialdesign';
-import { Supabase } from '@styled-icons/simple-icons/Supabase';
-import { Flutter, TailwindCss } from "styled-icons/boxicons-logos";
 import Tooltip from "@/components/Tooltip";
+import { Cloud } from "styled-icons/boxicons-regular";
 
 const CardService = styled.div`
 	display: flex;
@@ -152,7 +152,7 @@ const icon = (icono, text) =>{
 
 export default function _ServicesOffer() {
 	const { language } = useContext(SettingsContext);
-
+	const [isHover, setIsHover] = useState(false);
 	return (
 		<SectionServices id="section-services">
 		<CardService>
@@ -161,25 +161,47 @@ export default function _ServicesOffer() {
 			<ContainerGrid>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
-						<Robot />
+						<CodeBlock />
 						<h3>{language.servicesOffer.cards.develop.title}</h3>
-						{icon([<Js />,<Php />,<Python />,<Html5 />],['Java Script','PHP','Python','Html5'])}
+						{icon([<SiReact />,<SiNodedotjs />,<SiFlutter />,<SiPython />],['React','Node','Flutter','Python'])}
 						<p>{language.servicesOffer.cards.develop.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<CardService>
-						<DesignIdeas />
+						<Robot />
 						<h3>{language.servicesOffer.cards.design.title}</h3>
-						{icon([<Css3Alt />,<Materialdesign />,<TailwindCss />,<Bootstrap />],['CSS','Material UI','Tailwind','Bootstrap'])}
+						{icon([<img
+							src="/svg/flutterflow.svg"
+							alt="Flutterflow"
+							width={56}
+							height={56}
+							style={{
+								filter: "brightness(0) invert(0.8)",
+								transition: "filter 0.3s ease", marginBottom: "10px"
+							}}
+							onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+							onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.8)")}
+							/>,<img
+							src="/svg/lovable.svg"
+							alt="Flutterflow"
+							width={34}
+							height={34}
+							style={{
+								filter: "brightness(0) invert(0.8)",
+								transition: "filter 0.3s ease", marginBottom: "10px"
+							}}
+							onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+							onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.8)")}
+							/>,<SiMake />,<SiZapier />],['Flutterflow','Lovable','Make','Codemagic'])}
 						<p>{language.servicesOffer.cards.design.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>
 					<CardService>
-						<CodeBlock />
+						<Cloud />
 						<h3>{language.servicesOffer.cards.framework.title}</h3>
-						{icon([<Node />,<ReactLogo />,<Flutter />,<Angular />],['Node','React.Js','Flutter','Angular'])}
+						{icon([<SiFirebase/>, <SiSupabase/>,<SiStripe/>,<SiAlgolia/>],['Firebase','Supabase','Stripe','Algolia'])}
 						<p>{language.servicesOffer.cards.framework.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
@@ -187,7 +209,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<DesignServices />
 						<h3>{language.servicesOffer.cards.tools.title}</h3>
-						{icon([<Supabase/>, <Docker/>,<Aws/>,<Firebase/>],['Supabase','Doker','Amazon Web Service','Firebase'])}
+						{icon([<SiCodemagic/>,<SiGit/>, <SiDocker/>,<SiNetlify/>],['Codemagic','Git','Doker','Netlify'])}
 						<p>{language.servicesOffer.cards.tools.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
