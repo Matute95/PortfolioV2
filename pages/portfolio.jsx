@@ -20,6 +20,8 @@ import Image from "next/image";
 import { Expo, Firebase, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Supabase, Typescript } from "styled-icons/simple-icons";
 import { Flutter, Git } from "styled-icons/boxicons-logos";
 import { Aws, Laravel, Bootstrap, Algolia, Angular, Node } from "styled-icons/fa-brands";
+import { Reactjs } from "styled-icons/remix-fill";
+import { SiAlgolia, SiCodemagic, SiFirebase, SiMapbox, SiNetlify, SiReact, SiStripe } from "react-icons/si";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -294,17 +296,37 @@ export default function Portifolio() {
 			liveDemoUrl: null,
 			image:"/img/1.png",
 			techs: [
-				<Tooltip toolTipText="Angular">
-					<Angular />
+				<Tooltip toolTipText="Flutter">
+					<img
+						src="/svg/flutterflow.svg"
+						alt="Flutterflow"
+						width={32}
+						height={32}
+						style={{
+							filter: "brightness(0) invert(0.5)",
+							transition: "filter 0.3s ease", marginTop: "5px"
+						}}
+						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
+					/>
 				</Tooltip>,
-				<Tooltip toolTipText="Supabase">
-					<Supabase />
+				<Tooltip toolTipText="Firebase">
+					<SiFirebase />
 				</Tooltip>,
-				<Tooltip toolTipText="Algolia">
-					<Algolia />
+				<Tooltip toolTipText="Stripe">
+					<SiStripe />
+				</Tooltip>,
+				<Tooltip toolTipText="Codemagic">
+					<SiCodemagic />
+				</Tooltip>,
+				<Tooltip toolTipText="Mapbox">
+					<SiMapbox />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://go.goboxapp.com/",
+			sourceCodeLink: "https://open-vote-qug2zv.flutterflow.app",
 			typeProject: ["MOVIL", "*"]
 		},
 		{
@@ -314,17 +336,34 @@ export default function Portifolio() {
 			liveDemoUrl: null,
 			image:"/img/2.png",
 			techs: [
-				<Tooltip toolTipText="Flutter">
-					<Flutter />
+				<Tooltip toolTipText="Flutterflow">
+					<img
+						src="/svg/flutterflow.svg"
+						alt="Flutterflow"
+						width={32}
+						height={32}
+						style={{
+							filter: "brightness(0) invert(0.5)",
+							transition: "filter 0.3s ease", marginTop: "5px"
+						}}
+						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
+					/>
 				</Tooltip>,
-				<Tooltip toolTipText="Laravel">
-					<Laravel />
+				<Tooltip toolTipText="Firebase">
+					<SiFirebase />
 				</Tooltip>,
-				<Tooltip toolTipText="Node">
-					<Node />
+				<Tooltip toolTipText="React">
+					<SiReact />
+				</Tooltip>,
+				<Tooltip toolTipText="Mapbox">
+					<SiMapbox />
+				</Tooltip>,
+				<Tooltip toolTipText="Netlify">
+					<SiNetlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://mrdelivery.com.bo/",
+			sourceCodeLink: "https://opencitiesapp.com",
 			typeProject: ["WEB", "*"]
 		},{
 			id: 3,
@@ -333,17 +372,37 @@ export default function Portifolio() {
 			liveDemoUrl: null,
 			image:"/img/3.png",
 			techs: [
-				<Tooltip toolTipText="Flutter">
-					<Flutter />
+				<Tooltip toolTipText="Flutterflow">
+					<img
+						src="/svg/flutterflow.svg"
+						alt="Flutterflow"
+						width={32}
+						height={32}
+						style={{
+							filter: "brightness(0) invert(0.5)",
+							transition: "filter 0.3s ease", marginTop: "5px"
+						}}
+						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
+					/>
 				</Tooltip>,
-				<Tooltip toolTipText="Laravel">
-					<Laravel />
+				<Tooltip toolTipText="Firebase">
+					<SiFirebase />
 				</Tooltip>,
-				<Tooltip toolTipText="Node">
-					<Node />
+				<Tooltip toolTipText="Stripe">
+					<SiStripe />
+				</Tooltip>,
+				<Tooltip toolTipText="Codemagic">
+					<SiCodemagic />
+				</Tooltip>,
+				<Tooltip toolTipText="Mapbox">
+					<SiMapbox />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://apptingo.com/info/",
+			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.mycompany.opencities",
 			typeProject: ["MOVIL", "*"]
 		},
 		{
@@ -353,9 +412,80 @@ export default function Portifolio() {
 			liveDemoUrl: null,
 			image:"/img/4.png",
 			techs: [
-				<Tooltip toolTipText="Amazon Web Service">
-					<Aws />
+				<Tooltip toolTipText="Flutterflow">
+					<img
+						src="/svg/flutterflow.svg"
+						alt="Flutterflow"
+						width={32}
+						height={32}
+						style={{
+							filter: "brightness(0) invert(0.5)",
+							transition: "filter 0.3s ease", marginTop: "5px"
+						}}
+						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
+					/>
 				</Tooltip>,
+				<Tooltip toolTipText="Supabase">
+					<Supabase />
+				</Tooltip>,
+				<Tooltip toolTipText="Algolia">
+					<SiAlgolia />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.appsclan.gobox",
+			typeProject: ["MOVIL", "*"]
+		},{
+			id: 5,
+			title: language.portifolioPage.projects.id_5.title,
+			description: language.portifolioPage.projects.id_5.description,
+			liveDemoUrl: null,
+			image:"/img/5.png",
+			techs: [
+				<Tooltip toolTipText="Angular">
+					<Angular />
+				</Tooltip>,
+				<Tooltip toolTipText="Supabase">
+					<Supabase />
+				</Tooltip>,
+				<Tooltip toolTipText="Algolia">
+					<SiAlgolia />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://go.goboxapp.com",
+			typeProject: ["WEB", "*"]
+		},{
+			id: 6,
+			title: language.portifolioPage.projects.id_6.title,
+			description: language.portifolioPage.projects.id_6.description,
+			liveDemoUrl: null,
+			image:"/img/6.png",
+			techs: [
+				<Tooltip toolTipText="Flutter">
+					<Flutter />
+				</Tooltip>,
+				<Tooltip toolTipText="Laravel">
+					<Laravel />
+				</Tooltip>,
+				<Tooltip toolTipText="Node">
+					<Node />
+				</Tooltip>,
+				<Tooltip toolTipText="Git">
+					<Git />
+				</Tooltip>
+			],
+			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.rldevelopers.delivery.mrdelivery",
+			typeProject: ["MOVIL", "*"]
+		},{
+			id: 7,
+			title: language.portifolioPage.projects.id_7.title,
+			description: language.portifolioPage.projects.id_7.description,
+			liveDemoUrl: null,
+			image:"/img/7.png",
+			techs: [
 				<Tooltip toolTipText="Laravel">
 					<Laravel />
 				</Tooltip>,
@@ -369,76 +499,7 @@ export default function Portifolio() {
 					<Git />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://github.com/Matute95/ParentalControl",
-			typeProject: ["MOVIL", "*"]
-		},{
-			id: 5,
-			title: language.portifolioPage.projects.id_5.title,
-			description: language.portifolioPage.projects.id_5.description,
-			liveDemoUrl: null,
-			image:"/img/5.png",
-			techs: [
-				<Tooltip toolTipText="ReactJS">
-					<ReactLogo />
-				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<Firebase />
-				</Tooltip>,
-				<Tooltip toolTipText="Redux">
-					<Redux />
-				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<Netlify />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://app-comida-matias.netlify.app",
-			typeProject: ["WEB", "*"]
-		},{
-			id: 6,
-			title: language.portifolioPage.projects.id_6.title,
-			description: language.portifolioPage.projects.id_6.description,
-			liveDemoUrl: null,
-			image:"/img/6.png",
-			techs: [
-				<Tooltip toolTipText="Next">
-					<Nextdotjs />
-				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
-				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<Netlify />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
-			typeProject: ["MOVIL", "*"]
-		},{
-			id: 7,
-			title: language.portifolioPage.projects.id_7.title,
-			description: language.portifolioPage.projects.id_7.description,
-			liveDemoUrl: null,
-			image:"/img/7.png",
-			techs: [
-				<Tooltip toolTipText="Next">
-					<Nextdotjs />
-				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
-				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<Netlify />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			sourceCodeLink: "https://play.google.com/store/apps/details?id=io.apphive.clientapps.tingo",
 			typeProject: ["MOVIL", "*"]
 		},{
 			id: 8,
@@ -448,7 +509,7 @@ export default function Portifolio() {
 			image:"/img/8.jpg",
 			techs: [
 				<Tooltip toolTipText="Next">
-					<Nextdotjs />
+					<Reactjs />
 				</Tooltip>,
 				<Tooltip toolTipText="Typescript">
 					<Typescript />
@@ -457,10 +518,10 @@ export default function Portifolio() {
 					<Css3 />
 				</Tooltip>,
 				<Tooltip toolTipText="Netlify">
-					<Netlify />
+					<SiNetlify />
 				</Tooltip>
 			],
-			sourceCodeLink: "https://hoja-de-calculo-matias.netlify.app",
+			sourceCodeLink: "https://app-comida-matias.netlify.app",
 			typeProject: ["WEB", "*"]
 		}
 	];

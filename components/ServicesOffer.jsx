@@ -7,15 +7,14 @@ import { useState } from "react";
 import { Robot } from "@styled-icons/fa-solid/Robot";
 import { DesignServices } from "@styled-icons/material-rounded/DesignServices";
 import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
-import { Algolia, Bootstrap, Css3Alt, Docker, Node, Python, ReactLogo, Stripe } from "styled-icons/fa-brands";
-import { SiAlgolia, SiFirebase, SiSupabase, SiMake, SiCodemagic, SiRender, SiReact, SiFlutter, SiPython, SiStripe, SiGit, SiDocker, SiNetlify, SiNodedotjs, SiZapier } from "react-icons/si";
+import { SiAlgolia, SiFirebase, SiSupabase, SiMake, SiCodemagic, SiReact, SiFlutter, SiPython, SiStripe, SiGit, SiDocker, SiNetlify, SiZapier } from "react-icons/si";
 
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
-import { Materialdesign } from '@styled-icons/simple-icons/Materialdesign';
 import Tooltip from "@/components/Tooltip";
 import { Cloud } from "styled-icons/boxicons-regular";
+import { Node } from "styled-icons/fa-brands";
 
 const CardService = styled.div`
 	display: flex;
@@ -152,7 +151,6 @@ const icon = (icono, text) =>{
 
 export default function _ServicesOffer() {
 	const { language } = useContext(SettingsContext);
-	const [isHover, setIsHover] = useState(false);
 	return (
 		<SectionServices id="section-services">
 		<CardService>
@@ -163,7 +161,7 @@ export default function _ServicesOffer() {
 					<CardService>
 						<CodeBlock />
 						<h3>{language.servicesOffer.cards.develop.title}</h3>
-						{icon([<SiReact />,<SiNodedotjs />,<SiFlutter />,<SiPython />],['React','Node','Flutter','Python'])}
+						{icon([<SiReact />,<Node />,<SiFlutter />,<SiPython />],['React','Node','Flutter','Python'])}
 						<p>{language.servicesOffer.cards.develop.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
@@ -184,7 +182,7 @@ export default function _ServicesOffer() {
 							onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.8)")}
 							/>,<img
 							src="/svg/lovable.svg"
-							alt="Flutterflow"
+							alt="Lovable"
 							width={34}
 							height={34}
 							style={{

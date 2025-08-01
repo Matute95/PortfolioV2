@@ -8,7 +8,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { SettingsContext } from "@/context/SettingsContext";
 
 //ícones
-import { School } from "@styled-icons/ionicons-outline/School";
 import { LearningApp } from "@styled-icons/fluentui-system-filled/LearningApp";
 import { Work } from "@styled-icons/material-rounded/Work";
 
@@ -74,7 +73,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2024 - 2025</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2025</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>OpenCities</span>
 					</BoldText>
@@ -101,7 +100,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2023 - 2024</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2023 - 2025</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>GoBox</span>
 					</BoldText>
@@ -184,11 +183,11 @@ export default function TimelinePortifolio(props) {
 						{language.experiencePage.timeline.labelDep}: <span>Dirección de Tecnología de la Información y Comunicación {"(DTIC)"}</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.job2}</span>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.job1}</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelFunc}: <span><div>{language.experiencePage.timeline.job2_1}</div>
-					<div>{language.experiencePage.timeline.job2_2}</div><div>{language.experiencePage.timeline.job2_3}</div>
+						{language.experiencePage.timeline.labelFunc}: <span><div>{language.experiencePage.timeline.job1_1}</div>
+					<div>{language.experiencePage.timeline.job1_2}</div><div>{language.experiencePage.timeline.job1_3}</div>
 					</span>
 					</BoldText>
 				</TimelineContent>
