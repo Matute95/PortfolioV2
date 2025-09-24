@@ -8,75 +8,83 @@
     "labelExperience": "EXPERIENCE"
   },
   "landingPage": {
-    "apresentationText": "Hello, I'm",
+    "apresentationText": "Hi, I'm",
     "typeText": "Matias Rejas",
-    "resumeText": "Full-stack developer with experience in creating web and mobile applications, specialized in JavaScript environments with SQL/NoSQL database management.",
-    "buttonText": "Learn More"
+    "resumeText": "Fullstack developer focused on building modern and scalable solutions, with strategic vision and experience in workflow automation.",
+    "buttonText": "Learn more"
   },
   "servicesOffer": {
     "title": "SKILLS",
     "cards": {
       "develop": {
-        "title": "Development",
-        "contentText": "Languages I frequently use for application development."
+        "title": "Stack",
+        "contentText": "Environments I use the most to develop my projects."
       },
       "design": {
-        "title": "Design",
-        "contentText": "Tools I use for styling my applications."
+        "title": "No-Code",
+        "contentText": "Visual tools and automations I usually work with."
       },
       "framework": {
-        "title": "Frameworks",
-        "contentText": "My preferred frameworks for application development."
+        "title": "Cloud",
+        "contentText": "Backend services and APIs I integrate into my projects."
       },
       "tools": {
-        "title": "Tools",
-        "contentText": "Multipurpose tools I use in my projects."
+        "title": "DevOps",
+        "contentText": "Tools I use to deploy and maintain software."
       }
     }
   },
   "aboutMePage": {
     "title": "ABOUT ME",
-    "paragraph_one": "I'm a full-stack developer with experience in creating web and mobile applications, specialized in JavaScript environments with SQL/NoSQL database management. My focus is on delivering efficient, scalable, and high-quality solutions.",
-    "paragraph_two": "With experience working at startups like Desarrollamelo and GoBox, where I currently work, I've developed skills to work on both ends of the stack, developing integrated and highly functional applications.",
-    "paragraph_three": "My ability to quickly adapt to new technologies and environments allows me to tackle diverse and complex challenges, ensuring the implementation of innovative and efficient technological solutions.",
+    "paragraph_one": "I am a versatile fullstack developer with over 6 years of experience building digital products and a solid background in startup ecosystems.",
+    "paragraph_two": "Throughout my career, I have been involved in all stages of development: from idea conception and early validation, to implementation, deployment, and continuous improvement. I have worked in both technical and leadership roles, combining strategic vision with hands-on execution.",
+    "paragraph_three": "My focus is on identifying opportunities for improvement and process automation, optimizing time and resources, and ensuring that each project advances quickly and reliably in ever-changing environments.",
     "alt_dev_img": "Developer Matias Rejas",
     "perfil": "Systems Engineer",
-    "perfil2": "29 years old",
+    "perfil2": "30 years old",
     "download": "Download CV"
   },
   "portifolioPage": {
-    "title": "PROJECTS",
+    "title": "PORTFOLIO",
     "labelFilter": "ALL",
     "view": "View Project",
     "projects": {
       "id_1": {
-        "title": "GoBoxApp",
-        "description": "Web application developed using the Apollo template in Angular with primeNG and Supabase as Backend, which has a large number of modules, such as managing quotes, clients, products, suppliers, activity calendar, etc."
+        "title": "OpenVote App",
+        "description": "Application for managing political party membership that offers a visual way to view and create events on a shared map, with level-based restrictions."
       },
       "id_2": {
-        "title": "Mr. Delivery",
-        "description": "Mr. Delivery is a mobile platform for ordering food online. It allows users to explore menus from local restaurants, select products, and track the status of their orders in real time."
+        "title": "OpenCities Web",
+        "description": "Official OpenCities website which, in addition to static content, includes a web app similar to the mobile app but with extra sections for collaborators, such as a dashboard and a CRM."
       },
       "id_3": {
-        "title": "Tingo",
-        "description": "Tingo Comercio is an application designed to simplify order management and inventory for businesses. It allows managing pending, preparation, and delivered orders, as well as enabling and editing products. It also offers advanced features such as order history and weekly and monthly profit statistics."
+        "title": "OpenCities App",
+        "description": "The app works as an incident reporting center, alerting nearby users as well as collaborators responsible for handling those reports."
       },
       "id_4": {
-        "title": "Protecting You",
-        "description": "A parental control application that monitors the type of visual content consumed by the protected account using AWS rekognition service to detect inappropriate content. It also controls calls, location, contacts, and messages manageable from the web page. Both the mobile application and the backend are uploaded to GitHub."
+        "title": "GoBox App",
+        "description": "A delivery-style app for construction materials, with tools to help visualize and manage variables related to the construction sector."
       },
       "id_5": {
-        "title": "Fast Food Store",
-        "description": "A Progressive Web Application (PWA) accessible from any device, serving as the client-side of a delivery application. Users can add products to a cart, remove or continue adding, and see a total cost before proceeding to payment."
+        "title": "GoBox CRM",
+        "description": "Web application built with Angular (frontend) using PrimeNG and Supabase (backend). It includes a wide range of modules such as proforma management, clients, products, suppliers, activity calendar, and more."
       },
       "id_6": {
-        "title": "Collaborative Spreadsheet",
-        "description": "A collaborative spreadsheet where multiple users can work simultaneously. To test sessions, you can open the project from another device or open more than one window with the same link, and the application will consider it as a new person."
+        "title": "Mr. Delivery",
+        "description": "Mr. Delivery is a mobile platform for ordering food online. It allows users to browse local restaurant menus, select items, and track their orders in real time."
+      },
+      "id_7": {
+        "title": "Tingo",
+        "description": "Tingo Comercio is an app designed to simplify order and inventory management for businesses. It allows management of pending, in-progress, and delivered orders, as well as enabling and editing products. It also includes advanced features like order history and weekly/monthly revenue statistics."
+      },
+      "id_8": {
+        "title": "Fast Food Store",
+        "description": "A Progressive Web App (PWA) accessible from any device. The page functions as the client-side of a delivery application, allowing users to add items to a cart, remove or add more, and see the total cost before proceeding to payment."
       }
     }
   },
   "experiencePage": {
-    "title": "EXPERIENCE AND TITLES",
+    "title": "EXPERIENCE & EDUCATION",
     "timeline": {
       "labelPosition": "Position",
       "labelTitle": "Title",
@@ -89,51 +97,47 @@
       "labelExtensionCourse": "Extension Course",
       "labelFunc": "Functions",
       "cert": "View Certificate",
-      "title1": "Digital Marketing & Social Media Business Platforms",
-      "title2": "Traffic Analysis for the Discovery of Cyber Attacks with Wireshark",
+      "title1": "Digital Marketing Platforms & Social Media Business",
+      "title2": "Traffic Analysis for Detecting Cyber Attacks with Wireshark",
       "title3": "JavaScript Course",
-      "title4": "Android Course with Kotlin",
-      "job1": "Student Admission",
-      "job1_1": "Scholar",
-      "job1_2": "For academic sufficiency tests (PSA):",
-      "job1_3": "-Responsible for maintenance, repair, and installation of equipment in different faculty modules.",
-      "job1_4": "-Configuration and testing of ethernet connectivity of equipment to connect with UAGRM servers",
-      "job1_5": "-Installation, configuration, and testing of necessary applications for taking the exam",
-      "job1_6": "-registration and registration of new applicants",
-      "job1_7": "-installation and maintenance of applications necessary for biometric registration of applicants",
-      "job1_8": "I kept the same functions",
-      "job2": "Developer",
-      "job2_1": "-Internal software development.",
-      "job2_2": "-Performance optimization.",
-      "job2_3": "-Testing and debugging.",
-      "job3": "Backend Developer",
-      "job3_1": "-Database management.",
-      "job3_2": "-Construction and maintenance of APIs.",
-      "job3_3": "-Integration of external services.",
-      "job3_4": "-Collaboration with other teams.",
-      "job4": "Freelancer",
-      "job4_1": "-Project management.",
-      "job4_2": "-Creation and management of databases.",
-      "job4_3": "-SEO optimization.",
-      "job4_4": "-Creation of web and mobile applications.",
-      "job5": "Full Stack Developer",
-      "job5_1": "-Database management.",
-      "job5_2": "-Frontend and backend development.",
-      "job5_3": "-Mobile application development.",
-      "job5_4": "-Process automation."
+      "title4": "Android with Kotlin Course",
+      "job1": "Developer",
+      "job1_1": "-Internal software development.",
+      "job1_2": "-Performance optimization.",
+      "job1_3": "-Testing and debugging.",
+      "job2": "Backend Developer",
+      "job2_1": "-Database management.",
+      "job2_2": "-API development and maintenance.",
+      "job2_3": "-Integration of external services.",
+      "job2_4": "-Collaboration with other teams.",
+      "job3": "Freelancer",
+      "job3_1": "-Project management.",
+      "job3_2": "-Database creation and management.",
+      "job3_3": "-SEO optimization.",
+      "job3_4": "-Development of web and mobile applications.",
+      "job4": "Full Stack Developer",
+      "job4_1": "-Database management.",
+      "job4_2": "-Frontend and backend development.",
+      "job4_3": "-Mobile app development.",
+      "job4_4": "-Process automation.",
+      "job5": "CTO",
+      "job5_1": "-MVP development and product deployment.",
+      "job5_2": "-Database and server administration.",
+      "job5_3": "-Integration of external services and APIs.",
+      "job5_4": "-Analytics and monitoring implementation."
     }
   },
   "footer": {
     "labelNavigation": {
       "title": "NAVIGATION",
       "labelHome": "Home",
-      "labelServices": "Skills",
-      "labelAboutMe": "About Me",
+      "labelServices": "Services",
+      "labelAboutMe": "About me",
       "labelPortifolio": "Projects",
       "labelExperience": "Experience"
     },
     "labelHost": {
-      "title": "HOSPEDAGE"
+      "title": "HOSTING"
     }
   }
 }

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Robot } from "@styled-icons/fa-solid/Robot";
 import { DesignServices } from "@styled-icons/material-rounded/DesignServices";
 import { CodeBlock } from "@styled-icons/boxicons-regular/CodeBlock";
-import { SiAlgolia, SiFirebase, SiSupabase, SiMake, SiCodemagic, SiReact, SiFlutter, SiPython, SiStripe, SiGit, SiDocker, SiNetlify, SiZapier } from "react-icons/si";
+import { SiAlgolia, SiFirebase, SiSupabase, SiMake, SiCodemagic, SiReact, SiFlutter, SiPython, SiStripe, SiGit, SiDocker, SiNetlify, SiZapier, SiN8N } from "react-icons/si";
 
 
 //Contexto
@@ -191,7 +191,7 @@ export default function _ServicesOffer() {
 							}}
 							onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
 							onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.8)")}
-							/>,<SiMake />,<SiZapier />],['Flutterflow','Lovable','Make','Codemagic'])}
+							/>,<SiMake />,<SiN8N />],['Flutterflow','Lovable','Make','N8N'])}
 						<p>{language.servicesOffer.cards.design.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
