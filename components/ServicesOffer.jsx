@@ -207,7 +207,18 @@ export default function _ServicesOffer() {
 					<CardService>
 						<DesignServices />
 						<h3>{language.servicesOffer.cards.tools.title}</h3>
-						{icon([<SiCodemagic/>,<SiGit/>, <SiDocker/>,<SiNetlify/>],['Codemagic','Git','Doker','Netlify'])}
+						{icon([<SiCodemagic/>,<SiGit/>, <SiDocker/>,<img
+							src="/svg/grafana.svg"
+							alt="Grafana"
+							width={45}
+							height={45}
+							style={{
+								filter: "brightness(0) invert(0.8)",
+								transition: "filter 0.3s ease", marginBottom: "10px"
+							}}
+							onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
+							onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.8)")}
+							/>],['Codemagic','Git','Doker','Grafana'])}
 						<p>{language.servicesOffer.cards.tools.contentText}</p>
 					</CardService>
 				</ScrollAnimation>

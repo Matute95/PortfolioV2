@@ -49,35 +49,43 @@
     "labelFilter": "TODO",
     "view": "Ver Proyecto",
     "projects": {
-      "id_1": {
+      "id_10": {
+        "title": "Campaña de emails interactivos",
+        "description": "Automatizacion para campañas masivas de emails interactivos con dashboard para dar seguimiento a las metricas de clics por dispositivos y agrupados por tipo de campaña."
+      },
+      "id_9": {
+        "title": "Qr Payments API",
+        "description": "Sistema backend para generación, validación y seguimiento de pagos por QR con arquitectura modular que permite integrar y escalar múltiples integraciones bancarias y proveedores externos."
+      },
+      "id_8": {
         "title": "OpenVote App",
         "description": "Aplicacion para la gestion de militancia de partidos politicos que ofrece una manera visual de ver y crear eventos en el mapa que es compartido con los demas miembros con restricciones por nivel."
       },
-      "id_2": {
+      "id_7": {
         "title": "OpenCities Web",
         "description": "Pagina oficial de opencities que ademas del sitio estatico contiene una web app que es basicamente lo mismo que la app movil pero con apartados para el colaborador, como un dashboard y un crm."
       },
-      "id_3": {
+      "id_6": {
         "title": "OpenCities App",
         "description": "La aplicacion funciona como un centro de reportes de incidentes que alerta a los usuarios cercanos y tambien a los colaboradores que atienden ese tipo de reportes"
       },
-      "id_4": {
+      "id_5": {
         "title": "GoBox App",
         "description": "Una aplicacion tipo delivery de materiales de construccion, pero con herramientas que ayudan a visualizar y gestionar variables relacionadas al rubro de la construccion."
       },
-      "id_5": {
+      "id_4": {
         "title": "GoBox CRM",
         "description": "Aplicacion web desarrollada con Angular en el frontend con primeNG y Supabase como backend que tiene una enorme cantidad de modulos, como gestion de proformas, clientes, productos, proveedores, calendario de actividades, etc"
       },
-      "id_6": {
+      "id_3": {
         "title": "Mr. Delivery",
         "description": "Mr. Delivery es una plataforma móvil para realizar pedidos de comida en línea. Permite a los usuarios explorar menús de restaurantes locales, seleccionar productos y seguir el estado de sus pedidos en tiempo real."
       },
-      "id_7": {
+      "id_2": {
         "title": "Tingo",
         "description": "Tingo Comercio es una aplicación diseñada para simplificar la gestión de pedidos y el inventario de productos para negocios. Permite administrar pedidos pendientes, en preparación y entregados, además de habilitar y editar productos. También ofrece funciones avanzadas como historial de pedidos y estadísticas de ganancias semanales y mensuales."
       },
-      "id_8": {
+      "id_1": {
         "title": "Tienda de Comida Rapida",
         "description": "Una aplicacion web progresiva(PWA) accesible desde cualquier dispositivo, la pagina funciona como la parte cliente de una aplicacion de delivery, se agregan productos a un carrito del cual se pueden quitar o seguir agregando y muestra un total del costo antes de proceder a realizar el pago."
       }

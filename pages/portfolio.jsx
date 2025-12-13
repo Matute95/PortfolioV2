@@ -17,11 +17,11 @@ import { Live } from "@styled-icons/fluentui-system-filled/Live";
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import Image from "next/image";
-import { Expo, Firebase, Materialui, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Supabase, Typescript } from "styled-icons/simple-icons";
+import { Expo, Firebase, Materialui, Nestjs, Netlify, Nextdotjs, Redux, Spring, Styledcomponents, Supabase, Swagger, Typescript } from "styled-icons/simple-icons";
 import { Flutter, Git } from "styled-icons/boxicons-logos";
 import { Aws, Laravel, Bootstrap, Algolia, Angular, Node } from "styled-icons/fa-brands";
 import { Reactjs } from "styled-icons/remix-fill";
-import { SiAlgolia, SiCodemagic, SiFirebase, SiMapbox, SiNetlify, SiReact, SiStripe } from "react-icons/si";
+import { SiAlgolia, SiCodemagic, SiFirebase, SiMapbox, SiN8N, SiNetlify, SiReact, SiStripe } from "react-icons/si";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -288,243 +288,161 @@ export default function Portifolio() {
 	const [stack, setStack] = useState(language.portifolioPage.labelFilter);
 	const [view, setView] = useState("grid");
 
-	let projects = [
-		{
-			id: 1,
-			title: language.portifolioPage.projects.id_1.title,
-			description: language.portifolioPage.projects.id_1.description,
-			liveDemoUrl: null,
-			image:"/img/1.png",
-			techs: [
-				<Tooltip toolTipText="Flutter">
-					<img
-						src="/svg/flutterflow.svg"
-						alt="Flutterflow"
-						width={32}
-						height={32}
-						style={{
-							filter: "brightness(0) invert(0.5)",
-							transition: "filter 0.3s ease", marginTop: "5px"
-						}}
-						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
-						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
-					/>
-				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<SiFirebase />
-				</Tooltip>,
-				<Tooltip toolTipText="Stripe">
-					<SiStripe />
-				</Tooltip>,
-				<Tooltip toolTipText="Codemagic">
-					<SiCodemagic />
-				</Tooltip>,
-				<Tooltip toolTipText="Mapbox">
-					<SiMapbox />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://open-vote-qug2zv.flutterflow.app",
-			typeProject: ["MOVIL", "*"]
-		},
-		{
-			id: 2,
-			title: language.portifolioPage.projects.id_2.title,
-			description: language.portifolioPage.projects.id_2.description,
-			liveDemoUrl: null,
-			image:"/img/2.png",
-			techs: [
-				<Tooltip toolTipText="Flutterflow">
-					<img
-						src="/svg/flutterflow.svg"
-						alt="Flutterflow"
-						width={32}
-						height={32}
-						style={{
-							filter: "brightness(0) invert(0.5)",
-							transition: "filter 0.3s ease", marginTop: "5px"
-						}}
-						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
-						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
-					/>
-				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<SiFirebase />
-				</Tooltip>,
-				<Tooltip toolTipText="React">
-					<SiReact />
-				</Tooltip>,
-				<Tooltip toolTipText="Mapbox">
-					<SiMapbox />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<SiNetlify />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://opencitiesapp.com",
-			typeProject: ["WEB", "*"]
-		},{
-			id: 3,
-			title: language.portifolioPage.projects.id_3.title,
-			description: language.portifolioPage.projects.id_3.description,
-			liveDemoUrl: null,
-			image:"/img/3.png",
-			techs: [
-				<Tooltip toolTipText="Flutterflow">
-					<img
-						src="/svg/flutterflow.svg"
-						alt="Flutterflow"
-						width={32}
-						height={32}
-						style={{
-							filter: "brightness(0) invert(0.5)",
-							transition: "filter 0.3s ease", marginTop: "5px"
-						}}
-						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
-						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
-					/>
-				</Tooltip>,
-				<Tooltip toolTipText="Firebase">
-					<SiFirebase />
-				</Tooltip>,
-				<Tooltip toolTipText="Stripe">
-					<SiStripe />
-				</Tooltip>,
-				<Tooltip toolTipText="Codemagic">
-					<SiCodemagic />
-				</Tooltip>,
-				<Tooltip toolTipText="Mapbox">
-					<SiMapbox />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.mycompany.opencities",
-			typeProject: ["MOVIL", "*"]
-		},
-		{
-			id: 4,
-			title: language.portifolioPage.projects.id_4.title,
-			description: language.portifolioPage.projects.id_4.description,
-			liveDemoUrl: null,
-			image:"/img/4.png",
-			techs: [
-				<Tooltip toolTipText="Flutterflow">
-					<img
-						src="/svg/flutterflow.svg"
-						alt="Flutterflow"
-						width={32}
-						height={32}
-						style={{
-							filter: "brightness(0) invert(0.5)",
-							transition: "filter 0.3s ease", marginTop: "5px"
-						}}
-						onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0)")}
-						onMouseOut={(e) => (e.currentTarget.style.filter = "brightness(0) invert(0.5)")}
-					/>
-				</Tooltip>,
-				<Tooltip toolTipText="Supabase">
-					<Supabase />
-				</Tooltip>,
-				<Tooltip toolTipText="Algolia">
-					<SiAlgolia />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.appsclan.gobox",
-			typeProject: ["MOVIL", "*"]
-		},{
-			id: 5,
-			title: language.portifolioPage.projects.id_5.title,
-			description: language.portifolioPage.projects.id_5.description,
-			liveDemoUrl: null,
-			image:"/img/5.png",
-			techs: [
-				<Tooltip toolTipText="Angular">
-					<Angular />
-				</Tooltip>,
-				<Tooltip toolTipText="Supabase">
-					<Supabase />
-				</Tooltip>,
-				<Tooltip toolTipText="Algolia">
-					<SiAlgolia />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://go.goboxapp.com",
-			typeProject: ["WEB", "*"]
-		},{
-			id: 6,
-			title: language.portifolioPage.projects.id_6.title,
-			description: language.portifolioPage.projects.id_6.description,
-			liveDemoUrl: null,
-			image:"/img/6.png",
-			techs: [
-				<Tooltip toolTipText="Flutter">
-					<Flutter />
-				</Tooltip>,
-				<Tooltip toolTipText="Laravel">
-					<Laravel />
-				</Tooltip>,
-				<Tooltip toolTipText="Node">
-					<Node />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://play.google.com/store/apps/details?id=com.rldevelopers.delivery.mrdelivery",
-			typeProject: ["MOVIL", "*"]
-		},{
-			id: 7,
-			title: language.portifolioPage.projects.id_7.title,
-			description: language.portifolioPage.projects.id_7.description,
-			liveDemoUrl: null,
-			image:"/img/7.png",
-			techs: [
-				<Tooltip toolTipText="Laravel">
-					<Laravel />
-				</Tooltip>,
-				<Tooltip toolTipText="Bootstrap">
-					<Bootstrap />
-				</Tooltip>,
-				<Tooltip toolTipText="React Expo">
-					<Expo />
-				</Tooltip>,
-				<Tooltip toolTipText="Git">
-					<Git />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://play.google.com/store/apps/details?id=io.apphive.clientapps.tingo",
-			typeProject: ["MOVIL", "*"]
-		},{
-			id: 8,
-			title: language.portifolioPage.projects.id_8.title,
-			description: language.portifolioPage.projects.id_8.description,
-			liveDemoUrl: null,
-			image:"/img/8.jpg",
-			techs: [
-				<Tooltip toolTipText="Next">
-					<Reactjs />
-				</Tooltip>,
-				<Tooltip toolTipText="Typescript">
-					<Typescript />
-				</Tooltip>,
-				<Tooltip toolTipText="Css">
-					<Css3 />
-				</Tooltip>,
-				<Tooltip toolTipText="Netlify">
-					<SiNetlify />
-				</Tooltip>
-			],
-			sourceCodeLink: "https://app-comida-matias.netlify.app",
-			typeProject: ["WEB", "*"]
-		}
-	];
+let projects = [
+	{
+		id: 10,
+		title: language.portifolioPage.projects.id_10.title,
+		description: language.portifolioPage.projects.id_10.description,
+		liveDemoUrl: null,
+		image: "/img/10.png",
+		techs: [
+			<Tooltip toolTipText="Nest"><Nestjs /></Tooltip>,
+			<Tooltip toolTipText="Swagger"><Swagger /></Tooltip>,
+			<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>
+		],
+		sourceCodeLink: "https://app-comida-matias.netlify.app",
+		typeProject: ["WEB", "*"]
+	},
+	{
+		id: 9,
+		title: language.portifolioPage.projects.id_9.title,
+		description: language.portifolioPage.projects.id_9.description,
+		liveDemoUrl: null,
+		image: "/img/9.png",
+		techs: [
+			<Tooltip toolTipText="N8N"><SiN8N /></Tooltip>,
+			<Tooltip toolTipText="React"><SiReact /></Tooltip>,
+			<Tooltip toolTipText="Supabase"><Supabase /></Tooltip>
+		],
+		sourceCodeLink: "https://app-comida-matias.netlify.app",
+		typeProject: ["WEB", "*"]
+	},
+	{
+		id: 8,
+		title: language.portifolioPage.projects.id_8.title,
+		description: language.portifolioPage.projects.id_8.description,
+		liveDemoUrl: null,
+		image: "/img/8.png",
+		techs: [
+			<Tooltip toolTipText="Flutter"><img src="/svg/flutterflow.svg" alt="Flutterflow" width={32} height={32} /></Tooltip>,
+			<Tooltip toolTipText="Firebase"><SiFirebase /></Tooltip>,
+			<Tooltip toolTipText="Stripe"><SiStripe /></Tooltip>,
+			<Tooltip toolTipText="Codemagic"><SiCodemagic /></Tooltip>,
+			<Tooltip toolTipText="Mapbox"><SiMapbox /></Tooltip>,
+			<Tooltip toolTipText="Git"><Git /></Tooltip>
+		],
+		sourceCodeLink: "https://open-vote-qug2zv.flutterflow.app",
+		typeProject: ["MOVIL", "*"]
+	},
+	{
+		id: 7,
+		title: language.portifolioPage.projects.id_7.title,
+		description: language.portifolioPage.projects.id_7.description,
+		liveDemoUrl: null,
+		image: "/img/7.png",
+		techs: [
+			<Tooltip toolTipText="Flutterflow"><img src="/svg/flutterflow.svg" alt="Flutterflow" width={32} height={32} /></Tooltip>,
+			<Tooltip toolTipText="Firebase"><SiFirebase /></Tooltip>,
+			<Tooltip toolTipText="React"><SiReact /></Tooltip>,
+			<Tooltip toolTipText="Mapbox"><SiMapbox /></Tooltip>,
+			<Tooltip toolTipText="Netlify"><SiNetlify /></Tooltip>
+		],
+		sourceCodeLink: "https://opencitiesapp.com",
+		typeProject: ["WEB", "*"]
+	},
+	{
+		id: 6,
+		title: language.portifolioPage.projects.id_6.title,
+		description: language.portifolioPage.projects.id_6.description,
+		liveDemoUrl: null,
+		image: "/img/6.png",
+		techs: [
+			<Tooltip toolTipText="Flutterflow"><img src="/svg/flutterflow.svg" alt="Flutterflow" width={32} height={32} /></Tooltip>,
+			<Tooltip toolTipText="Firebase"><SiFirebase /></Tooltip>,
+			<Tooltip toolTipText="Stripe"><SiStripe /></Tooltip>,
+			<Tooltip toolTipText="Codemagic"><SiCodemagic /></Tooltip>,
+			<Tooltip toolTipText="Mapbox"><SiMapbox /></Tooltip>,
+			<Tooltip toolTipText="Git"><Git /></Tooltip>
+		],
+		sourceCodeLink: "https://play.google.com/store/apps/details?id=com.mycompany.opencities",
+		typeProject: ["MOVIL", "*"]
+	},
+	{
+		id: 5,
+		title: language.portifolioPage.projects.id_5.title,
+		description: language.portifolioPage.projects.id_5.description,
+		liveDemoUrl: null,
+		image: "/img/5.png",
+		techs: [
+			<Tooltip toolTipText="Flutterflow"><img src="/svg/flutterflow.svg" alt="Flutterflow" width={32} height={32} /></Tooltip>,
+			<Tooltip toolTipText="Supabase"><Supabase /></Tooltip>,
+			<Tooltip toolTipText="Algolia"><SiAlgolia /></Tooltip>
+		],
+		sourceCodeLink: "https://play.google.com/store/apps/details?id=com.appsclan.gobox",
+		typeProject: ["MOVIL", "*"]
+	},
+	{
+		id: 4,
+		title: language.portifolioPage.projects.id_4.title,
+		description: language.portifolioPage.projects.id_4.description,
+		liveDemoUrl: null,
+		image: "/img/4.png",
+		techs: [
+			<Tooltip toolTipText="Angular"><Angular /></Tooltip>,
+			<Tooltip toolTipText="Supabase"><Supabase /></Tooltip>,
+			<Tooltip toolTipText="Algolia"><SiAlgolia /></Tooltip>,
+			<Tooltip toolTipText="Git"><Git /></Tooltip>
+		],
+		sourceCodeLink: "https://go.goboxapp.com",
+		typeProject: ["WEB", "*"]
+	},
+	{
+		id: 3,
+		title: language.portifolioPage.projects.id_3.title,
+		description: language.portifolioPage.projects.id_3.description,
+		liveDemoUrl: null,
+		image: "/img/3.png",
+		techs: [
+			<Tooltip toolTipText="Flutter"><Flutter /></Tooltip>,
+			<Tooltip toolTipText="Laravel"><Laravel /></Tooltip>,
+			<Tooltip toolTipText="Node"><Node /></Tooltip>,
+			<Tooltip toolTipText="Git"><Git /></Tooltip>
+		],
+		sourceCodeLink: "https://play.google.com/store/apps/details?id=com.rldevelopers.delivery.mrdelivery",
+		typeProject: ["MOVIL", "*"]
+	},
+	{
+		id: 2,
+		title: language.portifolioPage.projects.id_2.title,
+		description: language.portifolioPage.projects.id_2.description,
+		liveDemoUrl: null,
+		image: "/img/2.png",
+		techs: [
+			<Tooltip toolTipText="Laravel"><Laravel /></Tooltip>,
+			<Tooltip toolTipText="Bootstrap"><Bootstrap /></Tooltip>,
+			<Tooltip toolTipText="React Expo"><Expo /></Tooltip>,
+			<Tooltip toolTipText="Git"><Git /></Tooltip>
+		],
+		sourceCodeLink: "https://play.google.com/store/apps/details?id=io.apphive.clientapps.tingo",
+		typeProject: ["MOVIL", "*"]
+	},
+	{
+		id: 1,
+		title: language.portifolioPage.projects.id_1.title,
+		description: language.portifolioPage.projects.id_1.description,
+		liveDemoUrl: null,
+		image: "/img/1.jpg",
+		techs: [
+			<Tooltip toolTipText="Next"><Reactjs /></Tooltip>,
+			<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>,
+			<Tooltip toolTipText="Css"><Css3 /></Tooltip>,
+			<Tooltip toolTipText="Netlify"><SiNetlify /></Tooltip>
+		],
+		sourceCodeLink: "https://app-comida-matias.netlify.app",
+		typeProject: ["WEB", "*"]
+	}
+];
+
 
 	React.useEffect(() => {
 		setArray_projects(projects)
