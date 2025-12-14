@@ -75,6 +75,32 @@ export default function TimelinePortifolio(props) {
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2025</h3>
 					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>Motoclick (Nexus Patio)</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelDep}: <span>Desarrollo</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.job6}</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelFunc}: <span>
+							<div>{language.experiencePage.timeline.job6_1}</div>
+							<div>{language.experiencePage.timeline.job6_2}</div>
+							<div>{language.experiencePage.timeline.job6_3}</div>
+							<div>{language.experiencePage.timeline.job6_4}</div>
+						</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2025</h3>
+					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>OpenCities</span>
 					</BoldText>
 					<BoldText>
@@ -100,7 +126,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2023 - 2025</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>2023 - 2024</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelCompany}: <span>GoBox</span>
 					</BoldText>

@@ -49,35 +49,43 @@
     "labelFilter": "ALL",
     "view": "View Project",
     "projects": {
-      "id_1": {
+      "id_10": {
+        "title": "Interactive Email Campaign",
+        "description": "Automation for large-scale interactive email campaigns with a dashboard to track click metrics by device and grouped by campaign type."
+      },
+      "id_9": {
+        "title": "API QR Multi provider",
+        "description": "Backend system for QR payment generation, validation, and tracking, built with a modular architecture that allows the integration and scaling of multiple banking integrations and external providers."
+      },
+      "id_8": {
         "title": "OpenVote App",
         "description": "Application for managing political party membership that offers a visual way to view and create events on a shared map, with level-based restrictions."
       },
-      "id_2": {
+      "id_7": {
         "title": "OpenCities Web",
         "description": "Official OpenCities website which, in addition to static content, includes a web app similar to the mobile app but with extra sections for collaborators, such as a dashboard and a CRM."
       },
-      "id_3": {
+      "id_6": {
         "title": "OpenCities App",
         "description": "The app works as an incident reporting center, alerting nearby users as well as collaborators responsible for handling those reports."
       },
-      "id_4": {
+      "id_5": {
         "title": "GoBox App",
         "description": "A delivery-style app for construction materials, with tools to help visualize and manage variables related to the construction sector."
       },
-      "id_5": {
+      "id_4": {
         "title": "GoBox CRM",
         "description": "Web application built with Angular (frontend) using PrimeNG and Supabase (backend). It includes a wide range of modules such as proforma management, clients, products, suppliers, activity calendar, and more."
       },
-      "id_6": {
+      "id_3": {
         "title": "Mr. Delivery",
         "description": "Mr. Delivery is a mobile platform for ordering food online. It allows users to browse local restaurant menus, select items, and track their orders in real time."
       },
-      "id_7": {
+      "id_2": {
         "title": "Tingo",
         "description": "Tingo Comercio is an app designed to simplify order and inventory management for businesses. It allows management of pending, in-progress, and delivered orders, as well as enabling and editing products. It also includes advanced features like order history and weekly/monthly revenue statistics."
       },
-      "id_8": {
+      "id_1": {
         "title": "Fast Food Store",
         "description": "A Progressive Web App (PWA) accessible from any device. The page functions as the client-side of a delivery application, allowing users to add items to a cart, remove or add more, and see the total cost before proceeding to payment."
       }
@@ -124,7 +132,12 @@
       "job5_1": "-MVP development and product deployment.",
       "job5_2": "-Database and server administration.",
       "job5_3": "-Integration of external services and APIs.",
-      "job5_4": "-Analytics and monitoring implementation."
+      "job5_4": "-Analytics and monitoring implementation.",
+      "job6": "Full Stack Developer",
+      "job6_1": "-API development and maintenance.",
+      "job6_2": "-Container management and deployment.",
+      "job6_3": "-Process automation (n8n).",
+      "job6_4": "-Log structuring and monitoring."
     }
   },
   "footer": {

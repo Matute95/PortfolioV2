@@ -184,7 +184,10 @@ export default function FooterPage(props) {
 			</div>
 			<Divider />
 			<ContainerBuildCopyright>
-				<LanguageSwitchButton />
+				{
+				//<LanguageSwitchButton />
+				}
+				<div></div>
 				<div className="build-and-button-top">
 					<TextBuildProject>
 					© MATIAS REJAS GUERRA, 2023

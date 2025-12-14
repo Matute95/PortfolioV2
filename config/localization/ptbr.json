@@ -54,7 +54,7 @@
         "description": "Automatizacion para campañas masivas de emails interactivos con dashboard para dar seguimiento a las metricas de clics por dispositivos y agrupados por tipo de campaña."
       },
       "id_9": {
-        "title": "Qr Payments API",
+        "title": "API QR Multi provider",
         "description": "Sistema backend para generación, validación y seguimiento de pagos por QR con arquitectura modular que permite integrar y escalar múltiples integraciones bancarias y proveedores externos."
       },
       "id_8": {
@@ -132,7 +132,12 @@
       "job5_1": "-Desarrollo de MVPs y despliegue de productos.",
       "job5_2": "-Administración de bases de datos y servidores.",
       "job5_3": "-Integración de servicios externos y APIs.",
-      "job5_4": "-Implementación de analíticas y monitoreo."
+      "job5_4": "-Implementación de analíticas.",
+      "job6": "Full Stack Developer",
+      "job6_1": "-Construcción y mantenimiento de APIs",
+      "job6_2": "-Gestión y despliegue de contenedores.",
+      "job6_3": "-Automatización de procesos (N8N)",
+      "job6_4": "-Estructuración de logs y monitoreo."
     }
   },
   "footer": {

@@ -296,9 +296,9 @@ let projects = [
 		liveDemoUrl: null,
 		image: "/img/10.png",
 		techs: [
-			<Tooltip toolTipText="Nest"><Nestjs /></Tooltip>,
-			<Tooltip toolTipText="Swagger"><Swagger /></Tooltip>,
-			<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>
+			<Tooltip toolTipText="N8N"><SiN8N /></Tooltip>,
+			<Tooltip toolTipText="React"><SiReact /></Tooltip>,
+			<Tooltip toolTipText="Supabase"><Supabase /></Tooltip>
 		],
 		sourceCodeLink: "https://app-comida-matias.netlify.app",
 		typeProject: ["WEB", "*"]
@@ -310,9 +310,9 @@ let projects = [
 		liveDemoUrl: null,
 		image: "/img/9.png",
 		techs: [
-			<Tooltip toolTipText="N8N"><SiN8N /></Tooltip>,
-			<Tooltip toolTipText="React"><SiReact /></Tooltip>,
-			<Tooltip toolTipText="Supabase"><Supabase /></Tooltip>
+			<Tooltip toolTipText="Nest"><Nestjs /></Tooltip>,
+			<Tooltip toolTipText="Swagger"><Swagger /></Tooltip>,
+			<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>
 		],
 		sourceCodeLink: "https://app-comida-matias.netlify.app",
 		typeProject: ["WEB", "*"]
@@ -426,21 +426,21 @@ let projects = [
 		sourceCodeLink: "https://play.google.com/store/apps/details?id=io.apphive.clientapps.tingo",
 		typeProject: ["MOVIL", "*"]
 	},
-	{
-		id: 1,
-		title: language.portifolioPage.projects.id_1.title,
-		description: language.portifolioPage.projects.id_1.description,
-		liveDemoUrl: null,
-		image: "/img/1.jpg",
-		techs: [
-			<Tooltip toolTipText="Next"><Reactjs /></Tooltip>,
-			<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>,
-			<Tooltip toolTipText="Css"><Css3 /></Tooltip>,
-			<Tooltip toolTipText="Netlify"><SiNetlify /></Tooltip>
-		],
-		sourceCodeLink: "https://app-comida-matias.netlify.app",
-		typeProject: ["WEB", "*"]
-	}
+	//{
+	//	id: 1,
+	//	title: language.portifolioPage.projects.id_1.title,
+	//	description: language.portifolioPage.projects.id_1.description,
+	//	liveDemoUrl: null,
+	//	image: "/img/1.jpg",
+	//	techs: [
+	//		<Tooltip toolTipText="Next"><Reactjs /></Tooltip>,
+	//		<Tooltip toolTipText="Typescript"><Typescript /></Tooltip>,
+	//		<Tooltip toolTipText="Css"><Css3 /></Tooltip>,
+	//		<Tooltip toolTipText="Netlify"><SiNetlify /></Tooltip>
+	//	],
+	//	sourceCodeLink: "https://app-comida-matias.netlify.app",
+	//	typeProject: ["WEB", "*"]
+	//}
 ];
 
 
