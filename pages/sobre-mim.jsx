@@ -278,7 +278,7 @@ export default function SobreMim(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<Image src="/img/user-photo.png" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<img src="/img/user-photo.png" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" width={131} />
 								</div>
 								<div className="content">
 									<h3 style={{marginTop:'60px'}}>Matias Rejas Guerra</h3>

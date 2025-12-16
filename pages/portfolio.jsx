@@ -511,7 +511,7 @@ let projects = [
 							<TitleSpan>{project.title}</TitleSpan>
 							<div className="title-body">
 								<BodyText>{project.description}</BodyText>
-								<Image src={project.image} alt="MR" height={350} width={600} objectFit="scale-down"/>
+								<img src={project.image} alt="MR" height={350} width={600} objectFit="scale-down"/>
 							</div>
 							<WrapperTechStack>
 								<div>
