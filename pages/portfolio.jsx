@@ -511,7 +511,15 @@ let projects = [
 							<TitleSpan>{project.title}</TitleSpan>
 							<div className="title-body">
 								<BodyText>{project.description}</BodyText>
-								<img src={project.image} alt="MR" height={350} width={600} objectFit="scale-down"/>
+								<br />
+								<img src={project.image} alt="MR" style={{
+									width: "100%",
+									maxWidth: "600px",
+									height: "auto",
+									display: "block",
+									margin: "0 auto",
+									objectFit: "contain",
+								}}/>
 							</div>
 							<WrapperTechStack>
 								<div>
