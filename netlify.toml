@@ -1,2 +1,2 @@
 [build.environment]
-NODE_VERSION = "18"
+NETLIFY_IMAGE_CDN = "false"
